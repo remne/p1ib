@@ -1,0 +1,20 @@
+{
+    "recommended": "132b88d",
+    "latest": "132b88d",
+    "blobs": [
+        {
+            "build": "132b88d",
+            "build_date": "20210701",
+            "status": "Stable",
+            "changelog": "First stable version",
+            "blob": "blobs/132b88d.bin"
+        },
+        {
+            "build": "2b17f3d",
+            "build_date": "20210620",
+            "status": "Development",
+            "changelog": "Development version, do not use.",
+            "blob": "blobs/2b17f3d.bin"
+        }
+    ]
+}
