@@ -75,8 +75,6 @@ To update the firmware, click on the firmware-download icon for the firmware tha
 
 ![Firmware badge](images/firmware_avail.png?raw=true "Firmware badge")
 
-<img width="463" src="images/firmware_update.gif">
-
 ![Firmware update](images/firmware_update.gif?raw=true "Firmware update")
 
 
