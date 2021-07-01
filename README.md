@@ -67,6 +67,19 @@ Note. Only chrome web browser is supported at this moment due to certain javascr
 ![Menu](images/menu.png?raw=true "Menu")
 
 
+## Firmware update
+
+When a new firmware is available, a red badge will be visible in the Firmware menu.
+The latest stable firmware is marked with the "recommended" text. 
+To update the firmware, click on the firmware-download icon for the firmware that you want to update to.
+
+![Firmware badge](images/firmware_avail.png?raw=true "Firmware badge")
+
+<img width="463" src="images/firmware_update.gif">
+
+![Firmware update](images/firmware_update.gif?raw=true "Firmware update")
+
+
 ## Examples of automations in Home Assistant:
 
 todo: add examples
