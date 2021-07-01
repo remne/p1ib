@@ -13,6 +13,7 @@ Verified to work on the following meters:
 
 ## Features
 - Web UI configuration.
+- Dashboard in web ui with realtime updated graphs for the majority of measurement points from the power meter.
 - Supports both protocols that the Swedish meters use at this moment:
   - COSEM/DLMS AXDR/HDLC Mode E (Aidon).
   - COSEM/DLMS ASCII Mode D (The other ones :).
