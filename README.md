@@ -18,9 +18,8 @@ Verified to work on the following meters:
   - COSEM/DLMS ASCII Mode D (The other ones :).
 - MQTT support.
 - Automatic sensor registration for Home Assistant (MQTT Auto Discovery).
-- Supports OTA firmware update via webgui (official builds fetched from this github repo).
-- Supports OTA firmware update from local computer (local built software).
-- Webservice with JSON output of meter data.
+- Supports OTA firmware update via web ui (official builds fetched from this github repo).
+- Webservice with JSON response of meter data.
 - Logging/debug through UDP to a remote computer and/or USB serial.
 
 
