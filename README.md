@@ -68,11 +68,11 @@ Note. Only chrome web browser is supported at this moment due to certain javascr
 ![Menu](images/menu.png?raw=true "Menu")
 
 
-## Powermeter pre-requisits
+## Powermeter prerequisite
 
 To be able to get any information out from the P1 HAN interface on your powermeter, the P1 port needs to be activated.
 
-For Eon, to to url https://www.eon.se/kundservice#humany-kundservice-privat=/g25505-hur-aktiverar-jag-min-elmaetares-han-port;phrase:Han%20port;take:5
+For Eon, to to url https://www.eon.se/kundservice#humany-kundservice-privat=/g25505-hur-aktiverar-jag-min-elmaetares-han-port
 
 For Tekniska Verken, go to url https://www.tekniskaverken.se/privat/elnat/matning-av-din-elanvandning/din-elmatare/#HAN
 
