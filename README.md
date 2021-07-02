@@ -47,7 +47,7 @@ P1ib enters AP mode (named "p1ib") when no SSID is configured, or connection can
 
 1. Connect to it without a password with your preferred device (phone or laptop for instance).
 
-2. When in AP-mode, IP 192.168.1.1 is set on the p1ib. Go to http://192.168.1.1/ or http://p1ib.local/ with chrome webbrowser (or chromium based webbrowser) to enter the configuration user interface.
+2. When in AP-mode, IP 192.168.1.1 is set on the p1ib. Go to http://192.168.1.1/ or http://p1ib.local/ with the Chrome webbrowser to enter the configuration user interface.
 
 3. Press the menu icon, and enter the 'Settings' menu. Here it is possible to scan for your Wi-Fi accesspoint (SSID), set a SSID password, and enable other features.
 
@@ -66,6 +66,15 @@ Note. Only chrome web browser is supported at this moment due to certain javascr
 ![Dashboard](images/dashboard.png?raw=true "Dashboard")
 
 ![Menu](images/menu.png?raw=true "Menu")
+
+
+## Powermeter pre-requisits
+
+To be able to get any information out from the P1 HAN interface on your powermeter, the P1 port needs to be activated.
+
+For Eon, to to url https://www.eon.se/kundservice#humany-kundservice-privat=/g25505-hur-aktiverar-jag-min-elmaetares-han-port;phrase:Han%20port;take:5
+
+For Tekniska Verken, go to url https://www.tekniskaverken.se/privat/elnat/matning-av-din-elanvandning/din-elmatare/#HAN
 
 
 ## Firmware update
