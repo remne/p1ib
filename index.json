@@ -1,13 +1,13 @@
 {
-    "recommended": "85c86a3",
-    "latest": "85c86a3",
+    "recommended": "65f321b",
+    "latest": "65f321b",
     "blobs": [
         {
-            "build": "85c86a3",
-            "build_date": "20210701",
+            "build": "65f321b",
+            "build_date": "20210707",
             "status": "Stable",
             "changelog": "First stable version",
-            "blob": "blobs/85c86a3.bin"
+            "blob": "blobs/65f321b.bin"
         },
         {
             "build": "2b17f3d",
