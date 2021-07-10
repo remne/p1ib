@@ -1,20 +1,13 @@
 {
-    "recommended": "65f321b",
-    "latest": "65f321b",
+    "recommended": "1366992",
+    "latest": "1366992",
     "blobs": [
         {
-            "build": "65f321b",
-            "build_date": "20210707",
+            "build": "1366992",
+            "build_date": "20210710",
             "status": "Stable",
             "changelog": "First stable version",
-            "blob": "blobs/65f321b.bin"
-        },
-        {
-            "build": "2b17f3d",
-            "build_date": "20210620",
-            "status": "Development",
-            "changelog": "Development version, do not use.",
-            "blob": "blobs/2b17f3d.bin"
+            "blob": "blobs/1366992.bin"
         }
     ]
 }
