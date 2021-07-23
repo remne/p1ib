@@ -15,8 +15,8 @@ Verified to work on the following meters:
 - Web UI configuration.
 - Dashboard in web ui with realtime updated graphs for the majority of measurement points from the power meter.
 - Supports both protocols that the Swedish meters use at this moment:
-  - COSEM/DLMS AXDR/HDLC Mode E (Aidon).
-  - COSEM/DLMS ASCII Mode D (The other ones :).
+  - DLMS/COSEM AXDR/HDLC Mode E (Aidon).
+  - DLMS/COSEM ASCII Mode D (The other ones :).
 - MQTT support.
 - Automatic sensor registration for Home Assistant (MQTT Auto Discovery).
 - Supports OTA firmware update via web ui (official builds fetched from this github repo).
@@ -105,7 +105,7 @@ A: That a power meter messages was correctly parsed and verified (crc check was 
 
 Q: What does intermitten red pulses mean? 
 
-A: That p1ib received an incomplete message and/or crc check did not pass.
+A: That p1ib received an incomplete message from your powermeter and/or crc check did not pass.
 
 
 Q: I cannot access p1ib by http://p1ib.local/ after I have selected an access point in the settings menu and entered a password

@@ -8,6 +8,13 @@
             "status": "Stable",
             "changelog": "First stable version",
             "blob": "blobs/1366992.bin"
+        },
+        {
+            "build": "d60b35b",
+            "build_date": "20210723",
+            "status": "Stable",
+            "changelog": "Torstein test firmware 1",
+            "blob": "blobs/d60b35b.bin"
         }
     ]
 }
