@@ -15,6 +15,13 @@
             "status": "Stable",
             "changelog": "Torstein test firmware 2, led+crc",
             "blob": "blobs/eecff1b.bin"
+        },
+        {
+            "build": "9826be1",
+            "build_date": "20210726",
+            "status": "Stable",
+            "changelog": "Torstein test firmware 3, Mode-D L3 voltage fix",
+            "blob": "blobs/9826be1.bin"
         }
     ]
 }
