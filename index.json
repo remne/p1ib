@@ -10,11 +10,11 @@
             "blob": "blobs/1366992.bin"
         },
         {
-            "build": "d60b35b",
-            "build_date": "20210723",
+            "build": "eecff1b",
+            "build_date": "20210726",
             "status": "Stable",
-            "changelog": "Torstein test firmware 1",
-            "blob": "blobs/d60b35b.bin"
+            "changelog": "Torstein test firmware 2, led+crc",
+            "blob": "blobs/eecff1b.bin"
         }
     ]
 }
