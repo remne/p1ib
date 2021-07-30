@@ -30,7 +30,10 @@ Verified to work on the following meters:
 Will probably work on all Mode D based AMS without firmware modifications, ie:
 - Landis Gyr (E360, E.on)
 - Sagemcom (S211, Ellevio and E.on)
-- ISKRA AM550
+- ISKRA AM550 (E.on)
+
+Meters that have (for me) unknown software protocol standard but have the P1/HAN RJ12 hardware interface, thus p1ib is not tested nor verified on.
+- Ningbo Sanxing S34U18 (Vattenfall)
 
 
 ## First time usage
@@ -69,6 +72,8 @@ To be able to get any information out from the P1 HAN interface on your powermet
 For Eon, to to url https://www.eon.se/kundservice#humany-kundservice-privat=/g25505-hur-aktiverar-jag-min-elmaetares-han-port
 
 For Tekniska Verken, go to url https://www.tekniskaverken.se/privat/elnat/matning-av-din-elanvandning/din-elmatare/#HAN
+
+For Ellevio, see "Lokalt kundgränssnitt". at url https://www.ellevio.se/kundservice-kontakta-oss/elmatarbyte/matarbyte-mig/
 
 ## Firmware update
 
