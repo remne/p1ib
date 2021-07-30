@@ -33,7 +33,7 @@ Will probably work on all Mode D based AMS without firmware modifications, ie:
 - ISKRA AM550 (E.on)
 
 Meters that have (for me) unknown software protocol standard but have the P1/HAN RJ12 hardware interface, thus p1ib is not tested nor verified on.
-- Ningbo Sanxing S34U18 (Vattenfall)
+- Ningbo Sanxing S34U18 (Vattenfall, https://we.vattenfalleldistribution.se/globalassets/matarbyte/vattenfall-eldistribution-oversikt-elmatare-vers.-1.0.pdf )
 
 
 ## First time usage
