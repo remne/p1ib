@@ -1,27 +1,13 @@
 {
-    "recommended": "1366992",
-    "latest": "1366992",
+    "recommended": "3586cea",
+    "latest": "3586cea",
     "blobs": [
         {
-            "build": "1366992",
-            "build_date": "20210710",
+            "build": "3586cea",
+            "build_date": "20210730",
             "status": "Stable",
-            "changelog": "First stable version",
-            "blob": "blobs/1366992.bin"
-        },
-        {
-            "build": "eecff1b",
-            "build_date": "20210726",
-            "status": "Stable",
-            "changelog": "Torstein test firmware 2, led+crc",
-            "blob": "blobs/eecff1b.bin"
-        },
-        {
-            "build": "9826be1",
-            "build_date": "20210726",
-            "status": "Stable",
-            "changelog": "Torstein test firmware 3, Mode-D L3 voltage fix",
-            "blob": "blobs/9826be1.bin"
+            "changelog": "First stable build",
+            "blob": "blobs/3586cea.bin"
         }
     ]
 }
