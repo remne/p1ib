@@ -126,7 +126,7 @@ Q: I have an Homey or other home automation system I want to use together with m
 
 A: MQTT is the prefered protocol in p1ib. Messages will be sent out periodically if connected to an power meter. Easiest way is to 
    "sniff" the messages with an local mqtt client (for example mosquitto_sub) to find out all topics available. Subscribe the topic '#' with mosquitto_sub to see all messages and topics.
-   There is also a webservice providing the meter data. It can be found att http://p1ib.local/meterData/
+   There is also a webservice providing the meter data. It can be found att http://p1ib.local/meterData
 
 
 Q: I cannot see any graphs in the dashboard while in AP mode.
