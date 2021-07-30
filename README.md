@@ -24,13 +24,14 @@ Communication with the p1ib are done through Wi-Fi.
 
 ## Supported smart power meters
 Verified to work on the following meters:
-- Aidon 6534
-- Landis-Gyr E360
+- Aidon 6534 (Tekniska Verken)
+- Landis-Gyr E360 (E.on)
 
-Will probably work on all Mode D and without firmware modifications.
-- Aidon (Tekniska Verken)
+Will probably work on all Mode D based AMS without firmware modifications, ie:
 - Landis Gyr (E360, E.on)
 - Sagemcom (S211, Ellevio and E.on)
+- ISKRA AM550
+
 
 ## First time usage
 
@@ -47,12 +48,11 @@ Connect to Wi-Fi access point named "p1ib" without a password with your preferre
 
 5. Once you have entered your preferred settings, press the "Save & Restart"-button. 
 
-6. Now you need to change back to your home Wi-Fi on your mobile phone/laptop. If you are using a device capable of mDNS (all computers more or less, probably not mobile devices) go to url http://p1ib.local/. If you are using a mobile device, you probably need to check in your home router for the IP the p1ib was assigned by your dhcp server.
+6. Now you need to change back to your home Wi-Fi on your mobile phone/laptop. If you are using a device capable of mDNS (all computers more or less, probably not mobile devices) go to url http://p1ib.local/. If you are using a mobile device, you probably need to check in your home router for the IP the p1ib was assigned by your dhcp server, ie go to http://some-ip-number/
 
-7. When entering http://p1ib.local/ in the webbrowser url, and you will once again see the dashboard. If you selected correct power meter option in the settings page you will see the graphs beeing updated with your current power consumption.
+7. When entering http://p1ib.local/ (or the IP number) in the webbrowser url you will once again see the dashboard. If you selected correct power meter option in the settings page you will see the graphs beeing updated with your current power consumption.
 
-8. At this point it is recommended press the menu icon once again. If the "firmware" menu option have an red badge on it with an '!' on it, it means that there is a new firmware available. 
-It is recommended to always update to the latest recommended firmware in the firmware-page.
+8. At this point it is recommended press the menu icon once again. If the "firmware" menu option have an *red badge* on it with an '!' on it, it means that there is a new firmware available. It is recommended to always update to the latest recommended firmware in the firmware-page.
 
 
 Note. Only chrome web browser is supported at this moment due to certain javascript dependencies.
@@ -126,6 +126,7 @@ Q: I have an Homey or other home automation system I want to use together with m
 
 A: MQTT is the prefered protocol in p1ib. Messages will be sent out periodically if connected to an power meter. Easiest way is to 
    "sniff" the messages with an local mqtt client (for example mosquitto_sub) to find out all topics available. Subscribe the topic '#' with mosquitto_sub to see all messages and topics.
+   There is also a webservice providing the meter data. It can be found att http://p1ib.local/meterData/
 
 
 Q: I cannot see any graphs in the dashboard while in AP mode.
