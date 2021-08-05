@@ -32,8 +32,13 @@ Will probably work on all Mode D based AMS without firmware modifications, ie:
 - Sagemcom (S211, Ellevio and E.on)
 - ISKRA AM550 (E.on)
 
-Meters that have (for me) unknown software protocol standard but have the P1/HAN RJ12 hardware interface, thus p1ib is not tested nor verified on.
+Meters that have (for me) unknown protocol standard but have the P1/HAN RJ12 hardware interface, thus p1ib is not tested nor verified on.
 - Ningbo Sanxing S34U18 (Vattenfall, https://we.vattenfalleldistribution.se/globalassets/matarbyte/vattenfall-eldistribution-oversikt-elmatare-vers.-1.0.pdf )
+- Itron A100/A300 (Borås elnät, https://boraselnat.se/elnat/elmatarbyte-2020-2021/sa-har-fungerar-din-nya-elmatare/)
+
+
+Other meters that I dont have so much information about:
+- Kamstrup Omnipower - M-BUS/RJ45?
 
 
 ## First time usage
