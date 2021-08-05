@@ -1,7 +1,14 @@
 {
-    "recommended": "3586cea",
-    "latest": "3586cea",
+    "recommended": "743beb1",
+    "latest": "743beb1",
     "blobs": [
+        {
+            "build": "743beb1",
+            "build_date": "20210805",
+            "status": "Stable",
+            "changelog": "- Decrease Wi-Fi tx power in AP-mode to minimize current consumption.<br/>- Add a short deep sleep during startup to minimize inrush current.",
+            "blob": "blobs/743beb1.bin"
+        },
         {
             "build": "3586cea",
             "build_date": "20210730",
