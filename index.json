@@ -8,6 +8,13 @@
             "status": "Stable",
             "changelog": "First stable build",
             "blob": "blobs/3586cea.bin"
+        },
+        {
+            "build": "01f4e9f",
+            "build_date": "20210806",
+            "status": "Development",
+            "changelog": "- Decrease Wi-Fi tx power in AP-mode to minimize current consumption.<br/>- Add upramping of TX power handling in normal mode",
+            "blob": "blobs/01f4e9f.bin"
         }
     ]
 }
