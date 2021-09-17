@@ -1,6 +1,6 @@
 {
-    "recommended": "3586cea",
-    "latest": "3586cea",
+    "recommended": "2e5cb70",
+    "latest": "2e5cb70",
     "blobs": [
         {
             "build": "3586cea",
@@ -12,7 +12,7 @@
         {
             "build": "2e5cb70",
             "build_date": "20210808",
-            "status": "Development",
+            "status": "Stable",
             "changelog": "- Remove automatic Wi-Fi scanning in settings.<br/>- Add Wi-Fi tx power limit slider.<br/>- HA Long term statistic enabled on MQTT sensors.<br/>- MQTT Sensors available in HA Energy Dashboard.<br/>- P1 telegram counters in dashboard. <br/>- Wi-Fi tx power output indicator in dashboard.",
             "blob": "blobs/2e5cb70.bin"
         },
