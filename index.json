@@ -3,6 +3,13 @@
     "latest": "2e5cb70",
     "blobs": [
         {
+            "build": "2e5cb70",
+            "build_date": "20210808",
+            "status": "Stable",
+            "changelog": "- Remove automatic Wi-Fi scanning in settings.<br/>- Add Wi-Fi tx power limit slider.<br/>- HA Long term statistic enabled on MQTT sensors.<br/>- MQTT Sensors available in HA Energy Dashboard.<br/>- P1 telegram counters in dashboard. <br/>- Wi-Fi tx power output indicator in dashboard.",
+            "blob": "blobs/2e5cb70.bin"
+        },
+        {
             "build": "3586cea",
             "build_date": "20210730",
             "status": "Stable",
@@ -10,11 +17,11 @@
             "blob": "blobs/3586cea.bin"
         },
         {
-            "build": "2e5cb70",
-            "build_date": "20210808",
-            "status": "Stable",
-            "changelog": "- Remove automatic Wi-Fi scanning in settings.<br/>- Add Wi-Fi tx power limit slider.<br/>- HA Long term statistic enabled on MQTT sensors.<br/>- MQTT Sensors available in HA Energy Dashboard.<br/>- P1 telegram counters in dashboard. <br/>- Wi-Fi tx power output indicator in dashboard.",
-            "blob": "blobs/2e5cb70.bin"
+            "build": "37a1d52",
+            "build_date": "20210917",
+            "status": "Development",
+            "changelog": "- Increase receive buffer size for the P1 interface.<br/>- New card in the dashboard with energy import, momentary power and current on L1-3.<br/>",
+            "blob": "blobs/37a1d52.bin"
         },
         {
             "build": "01f4e9f",
