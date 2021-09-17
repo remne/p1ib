@@ -27,10 +27,13 @@ Verified to work on the following meters:
 - Aidon 6534 (Tekniska Verken)
 - Landis-Gyr E360 (E.on)
 
-Will probably work on all Mode D based AMS without firmware modifications, ie:
+Will probably work on all Mode D based AMS, ie:
 - Landis Gyr (E360, E.on)
 - Sagemcom (S211, Ellevio and E.on)
-- ISKRA AM550 (E.on)
+
+Does not work on:
+- ISKRA AM550 (E.on) - E.on cannot activate the P1 port on this meter.
+
 
 Meters that have (for me) unknown protocol standard but have the P1/HAN RJ12 hardware interface, thus p1ib is not tested nor verified on.
 - Ningbo Sanxing S34U18 (Vattenfall, https://we.vattenfalleldistribution.se/globalassets/matarbyte/vattenfall-eldistribution-oversikt-elmatare-vers.-1.0.pdf )
