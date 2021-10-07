@@ -17,18 +17,11 @@
             "blob": "blobs/3586cea.bin"
         },
         {
-            "build": "a72cb54",
+            "build": "fe6ffca",
             "build_date": "20211007",
             "status": "Development",
-            "changelog": "- Wi-Fi reconnect instead of restart on ap disconnect.<br/>- General info cards always visible in dashboard.<br/>- Fixed bug in settings when ssid contains weird characters.",
-            "blob": "blobs/a72cb54.bin"
-        },
-        {
-            "build": "37a1d52",
-            "build_date": "20210917",
-            "status": "Development",
-            "changelog": "- Increase receive buffer size for the P1 interface.<br/>- New card in the dashboard with energy import, momentary power and current on L1-3.<br/>",
-            "blob": "blobs/37a1d52.bin"
+            "changelog": "- Wi-Fi reconnect instead of restart on ap disconnect.<br/>- General info cards always visible in dashboard.<br/>- Fixed bug in settings when ssid contains weird characters.<br/>MQTT reconnect timout changed from 10min to 30secs.",
+            "blob": "blobs/fe6ffca.bin"
         }
     ]
 }
