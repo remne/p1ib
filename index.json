@@ -17,18 +17,18 @@
             "blob": "blobs/3586cea.bin"
         },
         {
+            "build": "a72cb54",
+            "build_date": "20211007",
+            "status": "Development",
+            "changelog": "- Wi-Fi reconnect instead of restart on ap disconnect.<br/>- General info cards always visible in dashboard.<br/>- Fixed bug in settings when ssid contains weird characters.",
+            "blob": "blobs/a72cb54.bin"
+        },
+        {
             "build": "37a1d52",
             "build_date": "20210917",
             "status": "Development",
             "changelog": "- Increase receive buffer size for the P1 interface.<br/>- New card in the dashboard with energy import, momentary power and current on L1-3.<br/>",
             "blob": "blobs/37a1d52.bin"
-        },
-        {
-            "build": "01f4e9f",
-            "build_date": "20210806",
-            "status": "Development",
-            "changelog": "- Decrease Wi-Fi tx power in AP-mode to minimize current consumption.<br/>- Add upramping of TX power handling in normal mode",
-            "blob": "blobs/01f4e9f.bin"
         }
     ]
 }
