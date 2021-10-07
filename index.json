@@ -17,11 +17,11 @@
             "blob": "blobs/3586cea.bin"
         },
         {
-            "build": "fe6ffca",
+            "build": "458aa0b",
             "build_date": "20211007",
             "status": "Development",
-            "changelog": "- Wi-Fi reconnect instead of restart on ap disconnect.<br/>- General info cards always visible in dashboard.<br/>- Fixed bug in settings when ssid contains weird characters.<br/>- MQTT reconnect timout changed from 10min to 30secs.",
-            "blob": "blobs/fe6ffca.bin"
+            "changelog": "- Wi-Fi reconnect instead of restart on ap disconnect.<br/>- General info cards always visible in dashboard.<br/>- Fixed bug in settings when ssid contains weird characters.<br/>- MQTT reconnect timout changed from 10min to 30secs and improved connection handling.",
+            "blob": "blobs/458aa0b.bin"
         }
     ]
 }
