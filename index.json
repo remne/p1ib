@@ -20,7 +20,7 @@
             "build": "fe6ffca",
             "build_date": "20211007",
             "status": "Development",
-            "changelog": "- Wi-Fi reconnect instead of restart on ap disconnect.<br/>- General info cards always visible in dashboard.<br/>- Fixed bug in settings when ssid contains weird characters.<br/>MQTT reconnect timout changed from 10min to 30secs.",
+            "changelog": "- Wi-Fi reconnect instead of restart on ap disconnect.<br/>- General info cards always visible in dashboard.<br/>- Fixed bug in settings when ssid contains weird characters.<br/>- MQTT reconnect timout changed from 10min to 30secs.",
             "blob": "blobs/fe6ffca.bin"
         }
     ]
