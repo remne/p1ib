@@ -20,7 +20,7 @@
             "build": "de89321",
             "build_date": "20211013",
             "status": "Development",
-            "changelog": "- Change HA sensor state_class for ackumulative sensors from measurement to total_increasing to align with latest Home Assistant update. <br/><b>NOTE: Might break older versions of HA.</b><br/> https://developers.home-assistant.io/blog/2021/09/20/state_class_total",
+            "changelog": "- Change HA sensor state_class for ackumulative sensors from measurement to total_increasing to align with latest Home Assistant update. <br/><b>NOTE: Might break older versions of HA.</b>",
             "blob": "blobs/de89321.bin"
         },
         {
