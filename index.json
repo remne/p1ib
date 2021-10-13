@@ -17,11 +17,18 @@
             "blob": "blobs/3586cea.bin"
         },
         {
+            "build": "de89321",
+            "build_date": "20211013",
+            "status": "Development",
+            "changelog": "- Change HA sensor state_class for ackumulative sensors from measurement to total_increasing to align with latest Home Assistant update. <br/><b>NOTE: Might break older versions of HA.</b><br/> https://developers.home-assistant.io/blog/2021/09/20/state_class_total",
+            "blob": "blobs/de89321.bin"
+        },
+        {
             "build": "458aa0b",
             "build_date": "20211007",
             "status": "Development",
             "changelog": "- Wi-Fi reconnect instead of restart on ap disconnect.<br/>- General info cards always visible in dashboard.<br/>- Fixed bug in settings when ssid contains weird characters.<br/>- MQTT reconnect timout changed from 10min to 30secs and improved connection handling.",
             "blob": "blobs/458aa0b.bin"
-        }
+        },
     ]
 }
