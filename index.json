@@ -17,6 +17,13 @@
             "blob": "blobs/3586cea.bin"
         },
         {
+            "build": "a12db9b",
+            "build_date": "20211020",
+            "status": "Development",
+            "changelog": "- Watchdog timer added.",
+            "blob": "blobs/a12db9b.bin"
+        },
+        {
             "build": "de89321",
             "build_date": "20211013",
             "status": "Development",
@@ -32,3 +39,4 @@
         }
     ]
 }
+a12db9b
