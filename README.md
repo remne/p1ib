@@ -96,6 +96,7 @@ Make sure that the *MQTT State* shows **connected** in the dashboard.
 The p1ib registers the sensors once in Home Assistant at each startup of the p1ib.
 
 ![HA Device view](images/ha_devices_view.jpg?raw=true "HA Device view")
+![HA Energy Dashboard](images/ha_energy.jpg?raw=true "HA Energy Dashboard")
 
 
 ## Examples of automations in Home Assistant:
