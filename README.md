@@ -20,6 +20,7 @@ The USB port does not need to be connected when plugged in with the RJ12 P1 conn
 
 Communication with the p1ib are done through Wi-Fi.
 
+![AMS and p1ib](images/meter.jpg?raw=true "AMS and p1ib")
 ![Hardware](images/hw_rev_d.jpg?raw=true "Hardware")
 
 ## Supported smart power meters
@@ -101,7 +102,7 @@ The p1ib registers the sensors once in Home Assistant at each startup of the p1i
 
 todo: add examples
 
-### Plastic case
+## Plastic case
 You can find a 3d model (stl) under the "case-model"-directory, which can be 3dprinted.
 
 ![Case](images/case1.jpg?raw=true)
