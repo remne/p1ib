@@ -20,16 +20,15 @@ The USB port does not need to be connected when plugged in with the RJ12 P1 conn
 
 Communication with the p1ib are done through Wi-Fi.
 
-![Hardware](images/hw.jpg?raw=true "Hardware")
+![Hardware](images/hw_rev_d.jpg?raw=true "Hardware")
 
 ## Supported smart power meters
 Verified to work on the following meters:
 - Aidon 6534 (Tekniska Verken)
-- Landis-Gyr E360 (E.on)
+- Landis-Gyr E360
+- Sagemcom S211
 
-Will probably work on all Mode D based AMS, ie:
-- Landis Gyr (E360, E.on)
-- Sagemcom (S211, Ellevio and E.on)
+Will probably work on all Mode D based AMS.
 
 Does not work on:
 - ISKRA AM550 (E.on) - E.on cannot activate the P1 port on this meter.
@@ -39,15 +38,10 @@ Meters that have (for me) unknown protocol standard but have the P1/HAN RJ12 har
 - Ningbo Sanxing S34U18 (Vattenfall, https://we.vattenfalleldistribution.se/globalassets/matarbyte/vattenfall-eldistribution-oversikt-elmatare-vers.-1.0.pdf )
 - Itron A100/A300 (Borås elnät, https://boraselnat.se/elnat/elmatarbyte-2020-2021/sa-har-fungerar-din-nya-elmatare/)
 
-
-Other meters that I dont have so much information about:
-- Kamstrup Omnipower - M-BUS/RJ45?
-
-
 ## First time usage
 
-1. Connect your p1ib with the RJ12 cable. A blue LED light will pulse a couple of times to indicate that it is booting. If no blue LED is blinking, then your HAN/P1 port is probably not activated. See "Powermeter prerequisite" for instructions. There is no need to connect a USB cable to the p1ib. It is powered via the 
-P1/HAN interface.
+1. Connect your p1ib with the RJ12 cable into the P1 port of your AMS. A blue LED light will pulse a couple of times to indicate that it is booting. If no blue LED is blinking, then your HAN/P1 port is not activated. See "Powermeter prerequisite" for instructions. 
+There is no need to connect a USB cable to the p1ib. It is powered via the P1/HAN interface.
 
 2. P1ib enters AP mode (named "p1ib") when no SSID is configured, or connection cannot be established to the configured SSID.
 
@@ -93,6 +87,16 @@ To update the firmware, click on the firmware-download icon for the firmware tha
 
 ![Firmware update](images/firmware_update.gif?raw=true "Firmware update")
 
+## Home Assistant
+An MQTT broker is needed to communicate with Home Assistant. Enable the MQTT client in the *settings* menu. Once activated and connected, the plib will register a sensor in HA for each measurement point.
+
+Make sure that the *MQTT State* shows **connected** in the dashboard.
+
+The p1ib registers the sensors once in Home Assistant at each startup of the p1ib.
+
+![HA Device view](images/ha_devices_view.jpg?raw=true "HA Device view")
+
+
 ## Examples of automations in Home Assistant:
 
 todo: add examples
@@ -100,7 +104,6 @@ todo: add examples
 ### Plastic case
 You can find a 3d model (stl) under the "case-model"-directory, which can be 3dprinted.
 
-![Case](images/case_rend.png?raw=true)
 ![Case](images/case1.jpg?raw=true)
 ![Case](images/case2.jpg?raw=true)
 ![Case](images/case_3dprinting.jpg?raw=true)
@@ -132,7 +135,7 @@ A2: Your client might not support mDNS protocol, which must be activated to be a
 Q: I have Home Assistant and I want all data as sensors.
 
 A: Its easy! Just enable "MQTT" option, enter IP and port and possible username / password to your mqtt broker. 
-   P1ib automatically register a sensor for each measurement point from your AMS into HA. In short, there will be sensor entities in HA automatically when the mqtt feature is enabled.
+   P1ib automatically register a sensor for each measurement point from your AMS into HA.
 
 
 Q: I have an Homey or other home automation system I want to use together with my p1ib.
