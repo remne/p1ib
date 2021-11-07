@@ -17,32 +17,11 @@
             "blob": "blobs/3586cea.bin"
         },
         {
-            "build": "b0524da",
-            "build_date": "20211028",
+            "build": "0245b0c",
+            "build_date": "20211107",
             "status": "Development",
-            "changelog": "- Added device attribute during registration of sensors in HA (feature request https://github.com/remne/p1ib/issues/1).",
-            "blob": "blobs/b0524da.bin"
-        },
-        {
-            "build": "a12db9b",
-            "build_date": "20211020",
-            "status": "Development",
-            "changelog": "- Watchdog timer added.",
-            "blob": "blobs/a12db9b.bin"
-        },
-        {
-            "build": "de89321",
-            "build_date": "20211013",
-            "status": "Development",
-            "changelog": "- Change HA sensor state_class for ackumulative sensors from measurement to total_increasing to align with latest Home Assistant update. <br/><b>NOTE: Might break on older versions of HA.</b>",
-            "blob": "blobs/de89321.bin"
-        },
-        {
-            "build": "458aa0b",
-            "build_date": "20211007",
-            "status": "Development",
-            "changelog": "- Wi-Fi reconnect instead of restart on ap disconnect.<br/>- General info cards always visible in dashboard.<br/>- Fixed bug in settings when ssid contains weird characters.<br/>- MQTT reconnect timout changed from 10min to 30secs and improved connection handling.",
-            "blob": "blobs/458aa0b.bin"
+            "changelog": "- Add support for multiple p1ibs on same mqtt broker (see mqtt suffix option under the settings menu).",
+            "blob": "blobs/0245b0c.bin"
         }
     ]
 }
