@@ -17,11 +17,11 @@
             "blob": "blobs/3586cea.bin"
         },
         {
-            "build": "0245b0c",
-            "build_date": "20211107",
+            "build": "4077b50",
+            "build_date": "20211108",
             "status": "Development",
-            "changelog": "- Add support for multiple p1ibs on same mqtt broker (see mqtt suffix option under the settings menu).",
-            "blob": "blobs/0245b0c.bin"
+            "changelog": "- Add support for multiple p1ibs on same mqtt broker (see mqtt suffix option under the settings menu).<br/><b>Requires Home Assistant version 2021.11 or later!</b>",
+            "blob": "blobs/4077b50.bin"
         }
     ]
 }
