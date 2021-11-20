@@ -13,7 +13,7 @@
             "build": "2d7eada",
             "build_date": "20211120",
             "status": "Development",
-            "changelog": "- Change som wifi and mqtt connection behavior.<br/><b>Requires Home Assistant version 2021.11 or later!</b>",
+            "changelog": "- Change some Wi-Fi and MQTT connection behavior.<br/><b>Requires Home Assistant version 2021.11 or later!</b>",
             "blob": "blobs/2d7eada.bin"
         }
     ]
