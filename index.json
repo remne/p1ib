@@ -10,13 +10,6 @@
             "blob": "blobs/2e5cb70.bin"
         },
         {
-            "build": "3586cea",
-            "build_date": "20210730",
-            "status": "Stable",
-            "changelog": "First stable build",
-            "blob": "blobs/3586cea.bin"
-        },
-        {
             "build": "2d7eada",
             "build_date": "20211120",
             "status": "Development",
