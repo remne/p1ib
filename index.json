@@ -12,8 +12,8 @@
         {
             "build": "2d7eada",
             "build_date": "20211120",
-            "status": "Development",
-            "changelog": "- Change some Wi-Fi and MQTT connection behavior.<br/><b>Requires Home Assistant version 2021.11 or later!</b>",
+            "status": "Stable",
+            "changelog": "- MQTT HA device registration.<br/>- Wi-Fi connection behavior refactored.<br/>- Align MQTT sensors with latest HA.<br/>- Increased buffer for P1 telegrams.<br/>- Some minor bug fixes and other changes.<br/><b>Requires Home Assistant version 2021.11 or later!</b>",
             "blob": "blobs/2d7eada.bin"
         }
     ]
