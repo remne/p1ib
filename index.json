@@ -13,7 +13,7 @@
             "build": "f7b009f",
             "build_date": "20220205",
             "status": "Development",
-            "changelog": "- Home Assistant availiability support (MQTT will testament).<br/>- Timestamp sensor for last received meter telegram.</br>- Firmware update available sensor and firmware version sensor.<br/>- Improved LED blinking schema for easier troubleshooting.</br>- Improved logging details.<br/>- Added software tweaks to improve power consumption.</br>- HW revision efuse support.<br/>",
+            "changelog": "- Home Assistant availiability support (MQTT will testament).<br/>- Timestamp sensor for last received meter telegram.</br>- Firmware update available sensor and firmware version sensor.<br/>- Improved LED blinking schema for easier troubleshooting.</br>- Improved logging details.<br/>- Added software tweaks to improve power consumption.</br>- HW revision efuse support.<br/>- Removed 'homeassistant/sensor/'-part from MQTT state topics.<br/>- 'P1IB removed from sensors friendly name to make it a bit cleanering in HA dashboards.<br/>",
             "blob": "blobs/f7b009f.bin"
         }
 
