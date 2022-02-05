@@ -3,18 +3,20 @@
     "latest": "2d7eada",
     "blobs": [
         {
-            "build": "2e5cb70",
-            "build_date": "20210808",
-            "status": "Stable",
-            "changelog": "- Remove automatic Wi-Fi scanning in settings.<br/>- Add Wi-Fi tx power limit slider.<br/>- HA Long term statistic enabled on MQTT sensors.<br/>- MQTT Sensors available in HA Energy Dashboard.<br/>- P1 telegram counters in dashboard. <br/>- Wi-Fi tx power output indicator in dashboard.",
-            "blob": "blobs/2e5cb70.bin"
-        },
-        {
             "build": "2d7eada",
             "build_date": "20211120",
             "status": "Stable",
             "changelog": "- MQTT HA device registration.<br/>- Wi-Fi connection behavior refactored.<br/>- Align MQTT sensors with latest HA.<br/>- Increased buffer for P1 telegrams.<br/>- Some minor bug fixes and other changes.<br/><b>Requires Home Assistant version 2021.11 or later!</b>",
             "blob": "blobs/2d7eada.bin"
+        },
+        {
+            "build": "f7b009f",
+            "build_date": "20220205",
+            "status": "Development",
+            "changelog": "- Home Assistant availiability support (MQTT will testament).<br/>- Timestamp sensor for last received meter telegram.</br>- Firmware update available sensor and firmware version sensor.<br/>- Improved LED blinking schema for easier troubleshooting.</br>- Improved logging details.<br/>- Added software tweaks to improve power consumption.</br>- HW revision efuse support.<br/>",
+            "blob": "blobs/f7b009f.bin"
         }
+
     ]
 }
+
