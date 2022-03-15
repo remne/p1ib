@@ -1,5 +1,5 @@
 # P1IB - P1 Interface Bridge
-P1IB (pronounced p-l-i-b) is a software (and hardware) designed to read and parse advanced power meter (AMS) telegrams from the P1 
+P1IB (pronounced p-l-i-b) is a software (and hardware) designed to read and parse advanced power meter (AMS) telegrams from the P1
 interface port (RJ12) and to send the result to a consumer service, for instance Home Assistant.
 
 ## Features
@@ -14,7 +14,7 @@ interface port (RJ12) and to send the result to a consumer service, for instance
 - Webservice with JSON response of meter data.
 - Logging/debug through UDP to a remote computer and/or USB serial.
 
-## Hardware 
+## Hardware
 The p1ib hardware comes with an RJ12 connector for connecting to the P1 HAN port of the power meter. It also includes an USB port.
 The USB port does not need to be connected when plugged in with the RJ12 P1 connection of the power meter. The USB port is only for debugging (and possible changing firmware) purposes.
 
@@ -26,8 +26,9 @@ Communication with the p1ib are done through Wi-Fi.
 ## Supported smart power meters
 Verified to work on the following meters:
 - Aidon 6534 (Tekniska Verken)
-- Landis-Gyr E360
-- Sagemcom S211
+- Landis-Gyr E360 (E.on)
+- Sagemcom T211/S211
+- S34U18 (Vattenfall)
 
 Will probably work on all Mode D based AMS.
 
@@ -36,12 +37,11 @@ Does not work on:
 
 
 Meters that have (for me) unknown protocol standard but have the P1/HAN RJ12 hardware interface, thus p1ib is not tested nor verified on.
-- Ningbo Sanxing S34U18 (Vattenfall, https://we.vattenfalleldistribution.se/globalassets/matarbyte/vattenfall-eldistribution-oversikt-elmatare-vers.-1.0.pdf )
 - Itron A100/A300 (Borås elnät, https://boraselnat.se/elnat/elmatarbyte-2020-2021/sa-har-fungerar-din-nya-elmatare/)
 
 ## First time usage
 
-1. Connect your p1ib with the RJ12 cable into the P1 port of your AMS. A blue LED light will pulse a couple of times to indicate that it is booting. If no blue LED is blinking, then your HAN/P1 port is not activated. See "Powermeter prerequisite" for instructions. 
+1. Connect your p1ib with the RJ12 cable into the P1 port of your AMS. A blue LED light will pulse a couple of times to indicate that it is booting. If no blue LED is blinking, then your HAN/P1 port is not activated. See "Powermeter prerequisite" for instructions.
 There is no need to connect a USB cable to the p1ib. It is powered via the P1/HAN interface.
 
 2. P1ib enters AP mode (named "p1ib") when no SSID is configured, or connection cannot be established to the configured SSID.
@@ -52,7 +52,7 @@ Connect to Wi-Fi access point named "p1ib" without a password with your preferre
 
 4. Press the menu icon in top left corner, and enter the 'Settings' menu. Here it is possible to scan for your home Wi-Fi accesspoint (SSID), set an SSID password and enable other features.
 
-5. Once you have entered your preferred settings, press the "Save & Restart"-button. 
+5. Once you have entered your preferred settings, press the "Save & Restart"-button.
 
 6. Now you need to change back to your home Wi-Fi on your mobile phone/laptop. If you are using a device capable of mDNS (all computers more or less, probably not mobile devices) go to url http://p1ib.local/. If you are using a mobile device, you probably need to check in your home router for the IP the p1ib was assigned by your dhcp server, ie go to http://some-ip-number/
 
@@ -81,7 +81,7 @@ For Ellevio, see "Lokalt kundgränssnitt". at url https://www.ellevio.se/kundser
 ## Firmware update
 
 When a new firmware is available, a red badge will be visible in the Firmware menu.
-The latest stable firmware is marked with the "recommended" text. 
+The latest stable firmware is marked with the "recommended" text.
 To update the firmware, click on the firmware-download icon for the firmware that you want to update to.
 
 ![Firmware badge](images/firmware_avail.png?raw=true "Firmware badge")
@@ -122,7 +122,7 @@ Q: What does the intermitten blue pulse LED light mean?
 A: That a power meter messages was correctly parsed and verified (crc check was ok).
 
 
-Q: What does intermitten red pulses mean? 
+Q: What does intermitten red pulses mean?
 
 A: That p1ib received an incomplete message from your powermeter and/or crc check did not pass.
 
@@ -136,13 +136,13 @@ A2: Your client might not support mDNS protocol, which must be activated to be a
 
 Q: I have Home Assistant and I want all data as sensors.
 
-A: Its easy! Just enable "MQTT" option, enter IP and port and possible username / password to your mqtt broker. 
+A: Its easy! Just enable "MQTT" option, enter IP and port and possible username / password to your mqtt broker.
    P1ib automatically register a sensor for each measurement point from your AMS into HA.
 
 
 Q: I have an Homey or other home automation system I want to use together with my p1ib.
 
-A: MQTT is the prefered protocol in p1ib. Messages will be sent out periodically if connected to an power meter. Easiest way is to 
+A: MQTT is the prefered protocol in p1ib. Messages will be sent out periodically if connected to an power meter. Easiest way is to
    "sniff" the messages with an local mqtt client (for example mosquitto_sub) to find out all topics available. Subscribe the topic '#' with mosquitto_sub to see all messages and topics.
    There is also a webservice providing the meter data. It can be found att http://p1ib.local/meterData
 
