@@ -10,13 +10,11 @@
             "blob": "blobs/2d7eada.bin"
         },
         {
-            "build": "f7b009f",
-            "build_date": "20220205",
+            "build": "658f494",
+            "build_date": "20220321",
             "status": "Development",
-            "changelog": "- Home Assistant availiability support (MQTT will/testament).<br/>- Added timestamp sensor for last received meter telegram.</br>- Added firmware update available sensor and firmware version sensor.<br/>- Improved LED blinking schema for easier troubleshooting.</br>- Improved logging details.<br/>- Added software tweaks to improve power consumption.</br>- HW revision efuse support.<br/>- Removed 'homeassistant/sensor/'-part from MQTT state topics.<br/>- '<i>P1IB</i>' removed from sensors friendly name to make it a bit cleaner in HA dashboards.<br/>",
-            "blob": "blobs/f7b009f.bin"
+            "changelog": "- Home Assistant availiability support (MQTT will/testament).<br/>- Added timestamp sensor for last received meter telegram.</br>- Added firmware update available sensor and firmware version sensor.<br/>- Improved LED blinking schema for easier troubleshooting.</br>- Improved logging details.<br/>- Added software tweaks to improve power consumption.</br>- HW revision efuse support.<br/>- Removed 'homeassistant/sensor/'-part from MQTT state topics.<br/>- '<i>P1IB</i>' removed from sensors friendly name to make it a bit cleaner in HA dashboards.<br/>- Added energy export and momentary power export in summary card in web ui.<br/>- Added p1ib svg icon header in menues.<br/>- Changed to correct device class on sensors.<br/>- Added separate availability topic for telegram received sensor.<br/>- Added NTP servers configurable from web ui.<br/>- Filter out empty ssid:s during wifi scan.<br/>- Fix uptime overflow bug (efter 50days).<br/>",
+            "blob": "blobs/658f494.bin"
         }
-
     ]
 }
-
