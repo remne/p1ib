@@ -10,11 +10,11 @@
       "blob": "blobs/2d7eada.bin"
     },
     {
-      "build": "9da316e",
-      "build_date": "20220326",
+      "build": "0f39b16",
+      "build_date": "20220331",
       "status": "Development",
-      "changelog": "- Home Assistant availiability support (MQTT will/testament).<br/>- Add timestamp sensor for last received meter telegram.</br>- Add firmware update available and firmware version sensor.<br/>- Improve LED blinking schema for easier troubleshooting.</br>- Improve logging details.<br/>- Add software tweaks to improve power consumption.</br>- HW revision efuse support.<br/>- Remove 'homeassistant/sensor/'-part from MQTT state topics.<br/>- '<i>P1IB</i>' remove from sensors friendly name to make it a bit cleaner in HA dashboards.<br/>- Add energy export and momentary power export in summary card in web ui.<br/>- Add p1ib svg icon header in menues.<br/>- Change to correct device class on sensors (note kVArh not supported by HA, will produce varnings in HA).<br/>- Add separate availability topic for telegram received sensor.<br/>- Add NTP servers configurable from web ui.<br/>- Filter out empty ssid:s during wifi scan.<br/>- Fix uptime overflow bug (efter 50days).<br/>- Add support for custom/hidden Wi-Fi SSID in web ui.",
-      "blob": "blobs/9da316e.bin"
+      "changelog": "- Home Assistant availiability support (MQTT will/testament).<br/>- Timestamp and firmware sha1 sensor.</br> Improve LED blinking schema.</br>- Software tweaks to improve power consumption.</br>- HW rev efuse support.<br/>- Remove 'homeassistant/sensor/'-part from MQTT state topics.<br/>- '<i>P1IB</i>' remove from HA sensors friendly name.<br/>- Energy export and momentary power export in summary card in dashboard.<br/>- P1ib svg icon header in menues.<br/>- Change to correct device class on sensors (note kVArh not supported by HA, will produce varnings).<br/>- Add separate availability topic for telegram received sensor.<br/>- Add NTP servers configurable from web ui.<br/>- Filter out empty ssid:s during wifi scan.<br/>- Fix uptime overflow bug (efter 50days).<br/>- Support for custom/hidden Wi-Fi SSID in web ui.<br/>- Static ip support.",
+      "blob": "blobs/0f39b16.bin"
     }
   ]
 }
