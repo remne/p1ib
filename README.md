@@ -20,6 +20,8 @@ The USB port does not need to be connected when plugged in with the RJ12 P1 conn
 
 Communication with the p1ib are done through Wi-Fi.
 
+Hardware can normally be bought via https://www.facebook.com/marketplace/item/280466054210307.
+
 ![AMS and p1ib](images/meter.jpg?raw=true "AMS and p1ib")
 ![Hardware](images/hw_rev_d.jpg?raw=true "Hardware")
 
@@ -36,7 +38,7 @@ Does not work on:
 - ISKRA AM550 (E.on) - E.on cannot activate the P1 port on this meter.
 
 
-Meters that have (for me) unknown protocol standard but have the P1/HAN RJ12 hardware interface, thus p1ib is not tested nor verified on.
+Meters that have (for me) unknown protocol standard but have the P1/HAN RJ12 hardware interface, thus should work. However I have not verified p1ib on it yet.
 - Itron A100/A300 (Borås elnät, https://boraselnat.se/elnat/elmatarbyte-2020-2021/sa-har-fungerar-din-nya-elmatare/)
 
 ## First time usage

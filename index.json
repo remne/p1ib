@@ -10,11 +10,11 @@
       "blob": "blobs/2d7eada.bin"
     },
     {
-      "build": "0f39b16",
-      "build_date": "20220331",
+      "build": "680e4c3",
+      "build_date": "20220407",
       "status": "Development",
       "changelog": "- Home Assistant availiability support (MQTT will/testament).<br/>- Timestamp and firmware sha1 sensor.</br> Improve LED blinking schema.</br>- Software tweaks to improve power consumption.</br>- HW rev efuse support.<br/>- Remove 'homeassistant/sensor/'-part from MQTT state topics.<br/>- '<i>P1IB</i>' remove from HA sensors friendly name.<br/>- Energy export and momentary power export in summary card in dashboard.<br/>- P1ib svg icon header in menues.<br/>- Change to correct device class on sensors (note kVArh not supported by HA, will produce varnings).<br/>- Add separate availability topic for telegram received sensor.<br/>- Add NTP servers configurable from web ui.<br/>- Filter out empty ssid:s during wifi scan.<br/>- Fix uptime overflow bug (efter 50days).<br/>- Support for custom/hidden Wi-Fi SSID in web ui.<br/>- Static ip support.",
-      "blob": "blobs/0f39b16.bin"
+      "blob": "blobs/680e4c3.bin"
     }
   ]
 }
