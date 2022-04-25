@@ -1,15 +1,15 @@
 {
   "name": "p1ib",
-  "version": "2d7eada",
+  "version": "818de01",
   "new_install_prompt_erase": false,
   "builds": [
     {
       "chipFamily": "ESP32",
       "parts": [
-        { "path": "bootloader_dio_40m.bin", "offset": 4096 },
-        { "path": "partitions.bin", "offset": 32768 },
-        { "path": "boot_app0.bin", "offset": 57344 },
-        { "path": "firmware.bin", "offset": 65536 }
+        { "path": "818de01/bootloader_dio_40m.bin", "offset": 4096 },
+        { "path": "818de01/partitions.bin", "offset": 32768 },
+        { "path": "818de01/boot_app0.bin", "offset": 57344 },
+        { "path": "818de01/firmware.bin", "offset": 65536 }
       ]
     }
   ]
