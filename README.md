@@ -79,8 +79,6 @@ Note. Only chrome web browser is supported at this moment due to certain javascr
 
 
 
-
-
 ## Menues
 
 ### Dashboard
@@ -146,15 +144,12 @@ P1IB supports homey! A homey app is available at https://homey.app/sv-se/app/nu.
 The app is developed by Erik Ahlner (whyz). Source code available at https://github.com/whyz/homey-p1ib.
 
 ![Homey1](images/homey1.png?raw=true)
-
-
 ![Homey2](images/homey2.png?raw=true)
 
 ## Plastic case
 The case is a 3d-printed plastic case, with a CNC routed plexiglas piece for the LEDs.
 
 ![Case](images/case1.jpg?raw=true)
-
 ![Case](images/case_3dprinting.jpg?raw=true)
 ![Case](images/ledthingy.jpg?raw=true)
 
