@@ -16,7 +16,7 @@ interface port (RJ12) and to send the result to a consumer service, for instance
 - Automatic sensor registration for Home Assistant (MQTT Auto Discovery).
 - Supports OTA firmware update via web ui (official builds fetched from this github repo).
 - Webservice with JSON response of meter data.
-- Reduced data mode (save band width, can be used for remote surveillance for instance).
+- Reduced data mode
 - Logging/debug through UDP to a remote computer and/or USB serial.
 - P1IB does not require any internet connection (with the exception for Over-the-air firmware updates).
 
