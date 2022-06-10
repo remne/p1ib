@@ -1,3 +1,22 @@
+- [P1IB - P1 Interface Bridge](#p1ib---p1-interface-bridge)
+  - [Features](#features)
+  - [Hardware](#hardware)
+  - [Supported smart power meters](#supported-smart-power-meters)
+  - [Powermeter prerequisite](#powermeter-prerequisite)
+  - [First time usage](#first-time-usage)
+  - [Menues](#menues)
+    - [Dashboard](#dashboard)
+    - [Settings](#settings)
+    - [Advanced Settings](#advanced-settings)
+    - [Reduced Data Mode](#reduced-data-mode)
+  - [Firmware update](#firmware-update)
+  - [Home Assistant](#home-assistant)
+    - [Examples of automations in Home Assistant:](#examples-of-automations-in-home-assistant)
+  - [Homey App](#homey-app)
+  - [Plastic case](#plastic-case)
+  - [FAQ / Trouble shooting](#faq--trouble-shooting)
+
+
 # P1IB - P1 Interface Bridge
 P1IB (pronounced p-l-i-b) is a software (and hardware) designed to read and parse advanced power meter (AMS) telegrams from the P1
 interface port (RJ12) and to send the result to a consumer service, for instance Home Assistant.
@@ -48,6 +67,16 @@ Does not work on:
 Meters that have (for me) unknown protocol standard but have the P1/HAN RJ12 hardware interface, thus should work. However I have not verified p1ib on it yet.
 - Itron A100/A300 (Borås elnät, https://boraselnat.se/elnat/elmatarbyte-2020-2021/sa-har-fungerar-din-nya-elmatare/)
 
+## Powermeter prerequisite
+
+To be able to get any information out from the P1 HAN interface on your powermeter, the P1 port needs to be activated.
+
+For Eon, to to url https://www.eon.se/kundservice#humany-kundservice-privat=/g25505-hur-aktiverar-jag-min-elmaetares-han-port
+
+For Tekniska Verken, go to url https://www.tekniskaverken.se/privat/elnat/matning-av-din-elanvandning/din-elmatare/#HAN
+
+For Ellevio, see "Lokalt kundgränssnitt". at url https://www.ellevio.se/kundservice-kontakta-oss/elmatarbyte/matarbyte-mig/
+
 ## First time usage
 
 1. Connect your p1ib with the RJ12 cable into the P1 port of your AMS. A blue LED light will pulse a couple of times to indicate that it is booting. If no blue LED is blinking, then your HAN/P1 port is not activated. See "Powermeter prerequisite" for instructions.
@@ -62,7 +91,6 @@ Connect to Wi-Fi access point named "p1ib" without a password with your preferre
 4. Press the menu icon in top left corner, and enter the 'Settings' menu. Here it is possible to scan for your home Wi-Fi accesspoint (SSID), set an SSID password and enable other features.
 
 ![Menu](images/menu.png?raw=true "Menu")
-
 
 
 5. Once you have entered your preferred settings, press the "Save & Restart"-button.
@@ -100,16 +128,6 @@ Each measurement point can be enabled or disabled, and there is also a hysteresi
 
 ![Reduced Data Mode](images/reduced.png?raw=true "Reduced Data Mode")
 
-
-## Powermeter prerequisite
-
-To be able to get any information out from the P1 HAN interface on your powermeter, the P1 port needs to be activated.
-
-For Eon, to to url https://www.eon.se/kundservice#humany-kundservice-privat=/g25505-hur-aktiverar-jag-min-elmaetares-han-port
-
-For Tekniska Verken, go to url https://www.tekniskaverken.se/privat/elnat/matning-av-din-elanvandning/din-elmatare/#HAN
-
-For Ellevio, see "Lokalt kundgränssnitt". at url https://www.ellevio.se/kundservice-kontakta-oss/elmatarbyte/matarbyte-mig/
 
 ## Firmware update
 
