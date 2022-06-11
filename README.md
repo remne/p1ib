@@ -40,7 +40,7 @@ interface port (RJ12) and to send the result to a consumer service, for instance
 - Webservice with JSON response of meter data.
 - Reduced data mode
 - Logging/debug through UDP to a remote computer and/or USB serial.
-- P1IB does not require any internet connection (with the exception for Over-the-air firmware updates).
+- P1IB does not require any internet connection (with the exception for over-the-air firmware updates).
 
 ## Hardware
 The p1ib hardware comes with an RJ12 connector for connecting to the P1 HAN port of the power meter. It also includes an USB port.
