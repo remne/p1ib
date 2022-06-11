@@ -2,24 +2,27 @@
   - [Features](#features)
   - [Hardware](#hardware)
   - [Supported smart power meters](#supported-smart-power-meters)
-  - [Powermeter prerequisite](#powermeter-prerequisite)
-  - [First time usage](#first-time-usage)
-  - [Menues](#menues)
-    - [Dashboard](#dashboard)
-    - [Settings](#settings)
-    - [Advanced Settings](#advanced-settings)
-    - [Reduced Data Mode](#reduced-data-mode)
-  - [Firmware update](#firmware-update)
-  - [Home Assistant](#home-assistant)
-    - [Examples of automations in Home Assistant:](#examples-of-automations-in-home-assistant)
-  - [Homey App](#homey-app)
-  - [Plastic case](#plastic-case)
-  - [FAQ / Trouble shooting](#faq--trouble-shooting)
+- [Powermeter prerequisite](#powermeter-prerequisite)
+- [First time usage](#first-time-usage)
+- [Menues](#menues)
+  - [Dashboard](#dashboard)
+  - [Settings](#settings)
+  - [Advanced Settings](#advanced-settings)
+  - [Reduced Data Mode](#reduced-data-mode)
+- [Firmware update](#firmware-update)
+- [Home Assistant](#home-assistant)
+  - [Examples of cards in Home Assistant](#examples-of-cards-in-home-assistant)
+  - [Examples of automations in Home Assistant](#examples-of-automations-in-home-assistant)
+- [Homey App](#homey-app)
+- [Plastic case](#plastic-case)
+- [FAQ / Trouble shooting](#faq--trouble-shooting)
 
 
 # P1IB - P1 Interface Bridge
 P1IB (pronounced p-l-i-b) is a software (and hardware) designed to read and parse advanced power meter (AMS) telegrams from the P1
 interface port (RJ12) and to send the result to a consumer service, for instance Home Assistant.
+
+![AMS and p1ib](images/meter.jpg?raw=true "AMS and p1ib")
 
 ## Features
 - Fully configurable via web UI.
@@ -45,9 +48,9 @@ The USB port does not need to be connected when plugged in with the RJ12 P1 conn
 
 Communication with the p1ib are done through Wi-Fi.
 
-Hardware can normally be bought via https://www.facebook.com/marketplace/item/280466054210307.
+Hardware can normally be bought via https://www.facebook.com/marketplace/item/280466054210307 or by contacting me on facebook.
 
-![AMS and p1ib](images/meter.jpg?raw=true "AMS and p1ib")
+
 ![Hardware](images/hw_rev_d.jpg?raw=true "Hardware")
 ![Case](images/case2.jpg?raw=true)
 
@@ -67,7 +70,7 @@ Does not work on:
 Meters that have (for me) unknown protocol standard but have the P1/HAN RJ12 hardware interface, thus should work. However I have not verified p1ib on it yet.
 - Itron A100/A300 (Borås elnät, https://boraselnat.se/elnat/elmatarbyte-2020-2021/sa-har-fungerar-din-nya-elmatare/)
 
-## Powermeter prerequisite
+# Powermeter prerequisite
 
 To be able to get any information out from the P1 HAN interface on your powermeter, the P1 port needs to be activated.
 
@@ -77,7 +80,7 @@ For Tekniska Verken, go to url https://www.tekniskaverken.se/privat/elnat/matnin
 
 For Ellevio, see "Lokalt kundgränssnitt". at url https://www.ellevio.se/kundservice-kontakta-oss/elmatarbyte/matarbyte-mig/
 
-## First time usage
+# First time usage
 
 1. Connect your p1ib with the RJ12 cable into the P1 port of your AMS. A blue LED light will pulse a couple of times to indicate that it is booting. If no blue LED is blinking, then your HAN/P1 port is not activated. See "Powermeter prerequisite" for instructions.
 There is no need to connect a USB cable to the p1ib. It is powered via the P1/HAN interface.
@@ -107,20 +110,20 @@ Note. Only chrome web browser is supported at this moment due to certain javascr
 
 
 
-## Menues
+# Menues
 
-### Dashboard
+## Dashboard
 The dashboard provides an overview of the current state of the p1ib, and also graphs for some of the measurement points available.
 
 ![Dashboard](images/dashboard.png?raw=true "Dashboard")
-### Settings
+## Settings
 
 ![Settings](images/settings.png?raw=true "Settings")
-### Advanced Settings
+## Advanced Settings
 
 ![Advanced Settings](images/settings_adv.png?raw=true "Advanced Settings")
 
-### Reduced Data Mode
+## Reduced Data Mode
 
 The reduced data mode can be activated if you want to save bandwidth. This is useful for example for remote power monitoring in your summer house or similar where there might be a bandwidth cost from your internet service provider.
 
@@ -129,7 +132,7 @@ Each measurement point can be enabled or disabled, and there is also a hysteresi
 ![Reduced Data Mode](images/reduced.png?raw=true "Reduced Data Mode")
 
 
-## Firmware update
+# Firmware update
 
 When a new firmware is available, a red badge will be visible in the Firmware menu.
 The latest stable firmware is marked with the "recommended" text.
@@ -139,23 +142,25 @@ To update the firmware, click on the firmware-download icon for the firmware tha
 
 ![Firmware update](images/firmware_update.gif?raw=true "Firmware update")
 
-## Home Assistant
+# Home Assistant
 An MQTT broker is needed to communicate with Home Assistant. Enable the MQTT client in the *settings* menu. Once activated and connected, the plib will register a sensor in HA for each measurement point.
 
 Make sure that the *MQTT State* shows **connected** in the dashboard.
 
-The p1ib registers the sensors once in Home Assistant at each startup of the p1ib.
+The p1ib registers the sensors in Home Assistant at each startup of the p1ib.
 
 ![HA Device view](images/ha_devices_view.jpg?raw=true "HA Device view")
 ![HA Energy Dashboard](images/ha_energy.jpg?raw=true "HA Energy Dashboard")
 
 
-### Examples of automations in Home Assistant:
+## Examples of cards in Home Assistant
+
+## Examples of automations in Home Assistant
 
 todo: add examples
 
 
-## Homey App
+# Homey App
 
 P1IB supports homey! A homey app is available at https://homey.app/sv-se/app/nu.ahlner.p1ib/p1ib/.
 
@@ -164,14 +169,14 @@ The app is developed by Erik Ahlner (whyz). Source code available at https://git
 ![Homey1](images/homey1.png?raw=true)
 ![Homey2](images/homey2.png?raw=true)
 
-## Plastic case
+# Plastic case
 The case is a 3d-printed plastic case, with a CNC routed plexiglas piece for the LEDs.
 
 ![Case](images/case1.jpg?raw=true)
 ![Case](images/case_3dprinting.jpg?raw=true)
 ![Case](images/ledthingy.jpg?raw=true)
 
-## FAQ / Trouble shooting
+# FAQ / Trouble shooting
 Q: The LED light pulses with red color, what does it mean?
 
 A: It means p1ib is in AP mode, and needs to be configured. Connect to the Wi-Fi access point named "p1ib" and browse to http://192.168.1.1. You might need to disable "Mobile data" on your phone to be able to access it.
@@ -200,7 +205,7 @@ A: Its easy! Just enable "MQTT" option, enter IP and port and possible username 
    P1ib automatically register a sensor for each measurement point from your AMS into HA.
 
 
-Q: I have an Homey or other home automation system I want to use together with my p1ib.
+Q: I have a different home automation system than HA or Homey I want to use together with my p1ib.
 
 A: MQTT is the prefered protocol in p1ib. Messages will be sent out periodically if connected to an power meter. Easiest way is to
    "sniff" the messages with an local mqtt client (for example mosquitto_sub) to find out all topics available. Subscribe the topic '#' with mosquitto_sub to see all messages and topics.
