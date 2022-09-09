@@ -10,11 +10,11 @@
       "blob": "blobs/97b55c9.bin"
     },
     {
-      "build": "9b526a1",
-      "build_date": "20220610",
+      "build": "6a519f4",
+      "build_date": "20220909",
       "status": "Development",
-      "changelog": "- Add reduced data mode.<br/>- Chart.js added to flash.<br/>- WiFi scan timeout bug fixed.<br/>- mqtt p1ib/state aligned with other sensors.",
-      "blob": "blobs/9b526a1.bin"
+      "changelog": "- Add verbose debug mode<br/>- Add reduced data mode.<br/>- Chart.js added to flash.<br/>- WiFi scan timeout bug fixed.<br/>- mqtt p1ib/state aligned with other sensors.",
+      "blob": "blobs/6a519f4.bin"
     }
   ]
 }
