@@ -10,11 +10,11 @@
       "blob": "blobs/97b55c9.bin"
     },
     {
-      "build": "aaa978d",
+      "build": "b89d422",
       "build_date": "20220909",
       "status": "Development",
       "changelog": "- Compensate for bug in STAR meters (tranås energi)<br/> - Add verbose debug mode<br/>- Add reduced data mode.<br/>- Chart.js added to flash.<br/>- WiFi scan timeout bug fixed.<br/>- mqtt p1ib/state aligned with other sensors.",
-      "blob": "blobs/aaa978d.bin"
+      "blob": "blobs/b89d422.bin"
     }
   ]
 }
