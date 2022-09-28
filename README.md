@@ -48,7 +48,7 @@ The USB port does not need to be connected when plugged in with the RJ12 P1 conn
 
 Communication with the p1ib are done through Wi-Fi.
 
-Hardware can normally be bought via https://www.facebook.com/marketplace/item/280466054210307 or by contacting me on facebook.
+The hardware can normally be bought via facebook in the group "Smarta Hem - Köp & Sälj Produkter" or by contacting me on facebook.
 
 
 ![Hardware](images/hw_rev_d.jpg?raw=true "Hardware")
@@ -56,10 +56,11 @@ Hardware can normally be bought via https://www.facebook.com/marketplace/item/28
 
 ## Supported smart power meters
 Verified to work on the following meters:
-- Aidon 6534 (Tekniska Verken)
+- Aidon 6534 (Tekniska Verken, both old and upgraded versions)
 - Landis-Gyr E360 (E.on)
 - Sagemcom T211/S211
 - S34U18 (Vattenfall)
+- Star STZ351 (Tranås Energi)
 
 Will probably work on all Mode D based AMS.
 
@@ -74,11 +75,7 @@ Meters that have (for me) unknown protocol standard but have the P1/HAN RJ12 har
 
 To be able to get any information out from the P1 HAN interface on your powermeter, the P1 port needs to be activated.
 
-For Eon, to to url https://www.eon.se/kundservice#humany-kundservice-privat=/g25505-hur-aktiverar-jag-min-elmaetares-han-port
-
-For Tekniska Verken, go to url https://www.tekniskaverken.se/privat/elnat/matning-av-din-elanvandning/din-elmatare/#HAN
-
-For Ellevio, see "Lokalt kundgränssnitt". at url https://www.ellevio.se/kundservice-kontakta-oss/elmatarbyte/matarbyte-mig/
+Visit your electricity grid owners homepage for information on how to activate the P1-port on your powermeter.
 
 # First time usage
 
@@ -102,10 +99,10 @@ Connect to Wi-Fi access point named "p1ib" without a password with your preferre
 
 7. When entering http://p1ib.local/ (or the IP number) in the webbrowser url you will once again see the dashboard. If you selected correct power meter option in the settings page you will see the graphs beeing updated with your current power consumption.
 
-8. At this point it is recommended press the menu icon once again. If the "firmware" menu option have an *red badge* on it with an '!' on it, it means that there is a new firmware available. It is recommended to always update to the latest recommended firmware in the firmware-page.
+8. At this point it is recommended press the menu icon once again. If the "firmware" menu option have an *red badge* with an '!' on it, it means that there is a new firmware available. It is recommended to always update to the latest recommended firmware in the firmware-page.
 
 
-Note. Only chrome web browser is supported at this moment due to certain javascript dependencies.
+Note. Only the Chrome web browser is supported at this moment due to certain javascript dependencies.
 
 
 
