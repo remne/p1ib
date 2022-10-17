@@ -10,11 +10,11 @@
       "blob": "blobs/97b55c9.bin"
     },
     {
-      "build": "43f04e8",
-      "build_date": "20221006",
+      "build": "fcd8d4a",
+      "build_date": "20221017",
       "status": "Development",
-      "changelog": "- Increase p1 data buf to 4096 bytes.<br/>- Add Landis-Gyr E360 old firmware workaround<br/> - Compensate for bug in STAR meters (tranås energi)<br/> - Add verbose debug mode<br/>- Add reduced data mode.<br/>- Chart.js added to flash.<br/>- WiFi scan timeout bug fixed.<br/>- mqtt p1ib/state aligned with other sensors.",
-      "blob": "blobs/43f04e8.bin"
+      "changelog": "- Improved mode D parser.<br/>- Increase p1 data buf to 4096 bytes.<br/>- Add Landis-Gyr E360 old firmware workaround<br/> - Compensate for bug in STAR meters (tranås energi)<br/> - Add verbose debug mode<br/>- Add reduced data mode.<br/>- Chart.js added to flash.<br/>- WiFi scan timeout bug fixed.<br/>- mqtt p1ib/state aligned with other sensors.",
+      "blob": "blobs/fcd8d4a.bin"
     }
   ]
 }
