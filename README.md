@@ -45,6 +45,7 @@ interface port (RJ12) and to send the result to a consumer service, for instance
 ## Hardware
 The p1ib hardware comes with an RJ12 connector for connecting to the P1 HAN port of the power meter. It also includes an USB port.
 The USB port does not need to be connected when plugged in with the RJ12 P1 connection of the power meter. The USB port is only for debugging (and possible changing firmware) purposes.
+P1IB is normally powered by the P1 port.
 
 Communication with the p1ib are done through Wi-Fi.
 
