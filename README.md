@@ -48,8 +48,7 @@ The USB port does not need to be connected when plugged in with the RJ12 P1 conn
 
 Communication with the p1ib are done through Wi-Fi.
 
-The hardware can normally be bought via facebook in the group "Smarta Hem - Köp & Sälj Produkter" or by contacting me on facebook.
-
+The hardware can normally be bought at https://remne.tech
 
 ![Hardware](images/hw_rev_d.jpg?raw=true "Hardware")
 ![Case](images/case2.jpg?raw=true)
@@ -61,15 +60,14 @@ Verified to work on the following meters:
 - Sagemcom T211/S211
 - S34U18 (Vattenfall)
 - Star STZ351 (Tranås Energi)
+- Kamstrup OMNIA (not old OMNIPOWER)
+- Itron A100/A300
 
 Will probably work on all Mode D based AMS.
 
 Does not work on:
 - ISKRA AM550 (E.on) - E.on cannot activate the P1 port on this meter.
-
-
-Meters that have (for me) unknown protocol standard but have the P1/HAN RJ12 hardware interface, thus should work. However I have not verified p1ib on it yet.
-- Itron A100/A300 (Borås elnät, https://boraselnat.se/elnat/elmatarbyte-2020-2021/sa-har-fungerar-din-nya-elmatare/)
+- Kamstrup OMNIPOWER - p1ib can be modified to work with this meter, however, not recommended. OMNIPOWERs P1 port is not compliant with the standard.
 
 # Powermeter prerequisite
 
@@ -102,7 +100,7 @@ Connect to Wi-Fi access point named "p1ib" without a password with your preferre
 8. At this point it is recommended press the menu icon once again. If the "firmware" menu option have an *red badge* with an '!' on it, it means that there is a new firmware available. It is recommended to always update to the latest recommended firmware in the firmware-page.
 
 
-Note. Only the Chrome web browser is supported at this moment due to certain javascript dependencies.
+Note. Only the Chrome web browser is supported at this moment due to certain javascript dependencies. 
 
 
 
