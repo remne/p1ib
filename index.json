@@ -1,20 +1,20 @@
 {
-  "recommended": "97b55c9",
-  "latest": "97b55c9",
+  "recommended": "fcd8d4a",
+  "latest": "fcd8d4a",
   "blobs": [
+    {
+      "build": "fcd8d4a",
+      "build_date": "20221017",
+      "status": "Stable",
+      "changelog": "- Improved mode D parser.<br/>- Increase p1 data buf to 4096 bytes.<br/>- Add Landis-Gyr E360 old firmware workaround<br/> - Compensate for bug in STAR meters (tranås energi)<br/> - Add verbose debug mode<br/>- Add reduced data mode.<br/>- Chart.js added to flash.<br/>- WiFi scan timeout bug fixed.<br/>- mqtt p1ib/state aligned with other sensors.",
+      "blob": "blobs/fcd8d4a.bin"
+    },
     {
       "build": "97b55c9",
       "build_date": "20220422",
       "status": "Stable",
       "changelog": "- Home Assistant availiability support (MQTT will/testament).<br/>- Timestamp and firmware upgrade sensor.</br>- Improve LED blinking schema.</br>- Software tweaks to improve power consumption.</br>- HW rev efuse support.<br/>- Remove 'homeassistant/sensor/'-part from MQTT state topics.<br/>- '<i>P1IB</i>' remove from HA sensors friendly name.<br/>- Energy export and momentary power export in summary card in dashboard.<br/>- P1ib svg icon header in menus.<br/>- Change to correct device class on sensors (note kVArh not supported by HA, will produce varnings).<br/>- Add separate availability topic for telegram received sensor.<br/>- Add NTP servers configurable from web ui.<br/>- Filter out empty ssid:s during wifi scan.<br/>- Fix uptime overflow bug (efter 50days).<br/>- Support for custom/hidden Wi-Fi SSID in web ui.<br/>- Static ip support.<br/>- Wifi retry and ap-mode timeout configurable in web ui. <br/>- Support for Homey p1ib app.",
       "blob": "blobs/97b55c9.bin"
-    },
-    {
-      "build": "fcd8d4a",
-      "build_date": "20221017",
-      "status": "Development",
-      "changelog": "- Improved mode D parser.<br/>- Increase p1 data buf to 4096 bytes.<br/>- Add Landis-Gyr E360 old firmware workaround<br/> - Compensate for bug in STAR meters (tranås energi)<br/> - Add verbose debug mode<br/>- Add reduced data mode.<br/>- Chart.js added to flash.<br/>- WiFi scan timeout bug fixed.<br/>- mqtt p1ib/state aligned with other sensors.",
-      "blob": "blobs/fcd8d4a.bin"
     }
   ]
 }
