@@ -12,6 +12,7 @@
   - [Reduced Data Mode](#reduced-data-mode)
 - [Firmware update](#firmware-update)
 - [Home Assistant](#home-assistant)
+  - [Configure MQTT in P1IB](#configure-mqtt-in-p1ib)
   - [Examples of cards in Home Assistant](#examples-of-cards-in-home-assistant)
   - [Examples of automations in Home Assistant](#examples-of-automations-in-home-assistant)
 - [Homey App](#homey-app)
@@ -148,6 +149,9 @@ To update the firmware, click on the firmware-download icon for the firmware tha
 # Home Assistant
 An MQTT broker is needed to communicate with Home Assistant. The MQTT broker must be installed separately, and is normally not provided by default in an Home Assistant installation.
 
+Please read the Home Assistant MQTT documentation at https://www.home-assistant.io/integrations/mqtt/ if you dont have an MQTT broker installed.
+
+## Configure MQTT in P1IB
 Enable the MQTT client in the *settings* menu. Enter your IP/hostname and port number for your mqtt broker. If authentication is used, username and password must be provided. Once activated and connected, the plib will register a sensor in HA for each measurement point.
 
 Make sure that the *MQTT State* shows **connected** in the dashboard.
