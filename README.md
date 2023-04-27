@@ -2,6 +2,7 @@
   - [Features](#features)
   - [Hardware](#hardware)
   - [Supported smart power meters](#supported-smart-power-meters)
+    - [Note on Aidon meters](#note-on-aidon-meters)
 - [Powermeter prerequisite](#powermeter-prerequisite)
 - [First time usage](#first-time-usage)
 - [Menues](#menues)
@@ -56,11 +57,11 @@ The hardware can normally be bought at https://remne.tech
 
 ## Supported smart power meters
 Verified to work on the following meters:
-- Aidon 6534 (Tekniska Verken, both old and upgraded versions)
+- Aidon 6534 (both old and upgraded versions)
 - Landis-Gyr E360 (E.on)
 - Sagemcom T211/S211
-- S34U18 (Vattenfall)
-- Star STZ351 (Tranås Energi)
+- S34U18
+- Star STZ351
 - Kamstrup OMNIA (not old OMNIPOWER)
 - Itron A100/A300
 
@@ -69,6 +70,12 @@ Will probably work on all Mode D based AMS.
 Does not work on:
 - ISKRA AM550 (E.on) - E.on cannot activate the P1 port on this meter.
 - Kamstrup OMNIPOWER - p1ib can be modified to work with this meter, however, not recommended. OMNIPOWERs P1 port is not compliant with the standard.
+
+### Note on Aidon meters
+Aidon meters comes in two flavors, where recently updated meters use Mode-D and older ones Mode-E protocol. If you dont get any data in the dashboard, change power meter mode in the settings menu.
+
+![Mode](images/power_meter_modes.jpg?raw=true "Mode")
+
 
 # Powermeter prerequisite
 
@@ -139,10 +146,15 @@ To update the firmware, click on the firmware-download icon for the firmware tha
 ![Firmware update](images/firmware_update.gif?raw=true "Firmware update")
 
 # Home Assistant
-An MQTT broker is needed to communicate with Home Assistant. Enable the MQTT client in the *settings* menu. Once activated and connected, the plib will register a sensor in HA for each measurement point.
+An MQTT broker is needed to communicate with Home Assistant. The MQTT broker must be installed separately, and is normally not provided by default in an Home Assistant installation.
+
+Enable the MQTT client in the *settings* menu. Enter your IP/hostname and port number for your mqtt broker. If authentication is used, username and password must be provided. Once activated and connected, the plib will register a sensor in HA for each measurement point.
 
 Make sure that the *MQTT State* shows **connected** in the dashboard.
 
+![MQTT state](images/mqtt_connected.jpg?raw=true "MQTT state")
+
+<br>
 The p1ib registers the sensors in Home Assistant at each startup of the p1ib.
 
 ![HA Device view](images/ha_devices_view.jpg?raw=true "HA Device view")
