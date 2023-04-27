@@ -74,7 +74,7 @@ Does not work on:
 ### Note on Aidon meters
 Aidon meters comes in two flavors, where recently updated meters use Mode-D and older ones Mode-E protocol. If you dont get any data in the dashboard, change power meter mode in the settings menu.
 
-![Mode](images/power_meter_modes.jpg?raw=true "Mode")
+![Mode](images/settings_power_meter_modes.jpg?raw=true "Mode")
 
 
 # Powermeter prerequisite
