@@ -13,8 +13,12 @@
 - [Firmware update](#firmware-update)
 - [Home Assistant](#home-assistant)
   - [Configure MQTT in P1IB](#configure-mqtt-in-p1ib)
+  - [Setup the Energy board with p1ib sensors](#setup-the-energy-board-with-p1ib-sensors)
   - [Examples of cards in Home Assistant](#examples-of-cards-in-home-assistant)
+    - [Apex charts with energy consumption and electricity spot price from nordpool](#apex-charts-with-energy-consumption-and-electricity-spot-price-from-nordpool)
+    - [Example: Current gauges](#example-current-gauges)
   - [Examples of automations in Home Assistant](#examples-of-automations-in-home-assistant)
+    - [Example: Disable power switch when fuse amperage is above a given threshold](#example-disable-power-switch-when-fuse-amperage-is-above-a-given-threshold)
 - [Homey App](#homey-app)
 - [Plastic case](#plastic-case)
 - [FAQ / Trouble shooting](#faq--trouble-shooting)
@@ -165,12 +169,156 @@ The p1ib registers the sensors in Home Assistant at each startup of the p1ib.
 ![HA Energy Dashboard](images/ha_energy.jpg?raw=true "HA Energy Dashboard")
 
 
+## Setup the Energy board with p1ib sensors
+
+Home Assistant needs som manual configuration to enable it to collect energy statistics over time, and to make the "energy"-dashboard show any p1ib based information.
+
+1. In Home Assistant press "Settings -> Dashboards -> Energy"
+2. Add sensors for consumption and return to grid:
+
+  ![Energy import export](images/ha_energy_import_export_sensors.jpg?raw=true)
+
+1. It will take a couple of hours for Home Assistant to collect data. If it is working as expected, your should finally, after some time, have an dashboard with some nice looking graphs:
+
+![](images/ha_energy_dashboard.jpg?raw=true)
+
 ## Examples of cards in Home Assistant
+
+### Apex charts with energy consumption and electricity spot price from nordpool
+![Energy graph](images/energy_apex_charts.jpg?raw=true)
+
+1. Install apex charts card (https://github.com/RomRider/apexcharts-card) and nordpool integration (https://github.com/custom-components/nordpool)
+
+
+2. Create a per hour energy (kWh) sensor based on the p1ib energy import sensor. 
+    - Go to home assistant
+    - Click Settings -> Devices & Services -> Helpers
+    - Click "+ CREATE HELPER"-button
+    - Press "Utility Meter"
+    - Name the sensor "energy_consumption_kwh_hour"
+    - Select sensor "sensor.p1ib_active_energy_import_q1_q4
+    - Meter reset cycle: hourly
+    - Press "Submit"
+
+3. Go to your dashboard of choice in home assistant, press the "..." icon and "Edit dashboard". 
+
+   ![Edit dashboard](images/ha_edit_dashboard.jpg?raw=true) 
+
+4. Press the button "+ ADD CARD". Scroll to the bottom and select under Manual, "Need to add a custom card or just want to manually write the YAML?"
+
+
+
+Paste the following code into the editor window:
+```
+type: custom:apexcharts-card
+graph_span: 60h
+experimental:
+  color_threshold: true
+header:
+  title: Energy usage and cost estimation (nordpool)
+  show: true
+apex_config:
+  yaxis:
+    min: 0
+hours_12: false
+span:
+  start: hour
+  offset: '-22h'
+now:
+  show: true
+  label: Now
+series:
+  - entity: sensor.nordpool_kwh_se3_sek_3_10_025
+    type: column
+    data_generator: |
+      return (entity.attributes.raw_today.map((start, index) => {
+        return [new Date(start["start"]).getTime(), entity.attributes.raw_today[index]["value"]];
+      })).concat(entity.attributes.raw_tomorrow.map((start, index) => {
+        return [new Date(start["start"]).getTime(), entity.attributes.raw_tomorrow[index]["value"]];
+      }));
+    color_threshold:
+      - value: 0
+        color: green
+      - value: 1
+        color: orange
+      - value: 2
+        color: red
+      - value: 3
+        color: darkred
+      - value: 4
+        color: black
+  - entity: sensor.energy_consumption_kwh_hour
+    type: column
+    group_by:
+      func: max
+      duration: 1h
+    color: blue
+    show:
+      header_color_threshold: true
+      extremas: true
+
+```
+
+Change the "sensor.nordpool_kwh_se3_sek_3_10_025" to your nordpool sensor of choice in the code above. The sensor is named based on your geograpically location.
+
+5. Press "Save". Your done!
+
+### Example: Current gauges
+
+![Current meters](images/ha_current_gauges.jpg?raw=true)
+
+1. Go to your dashboard of choice in home assistant, press the "..." icon and "Edit dashboard". 
+
+2. Press the button "+ ADD CARD". Scroll to the bottom and select under Manual, "Need to add a custom card or just want to manually write the YAML?"
+
+3. Paste the following code into the text editor:
+
+```
+type: vertical-stack
+cards:
+  - type: gauge
+    entity: sensor.p1ib_current_l1
+    max: 25
+    unit: A
+    needle: true
+    severity:
+      green: 0
+      yellow: 16
+      red: 20
+  - type: gauge
+    entity: sensor.p1ib_current_l2
+    max: 25
+    unit: A
+    severity:
+      green: 0
+      yellow: 16
+      red: 20
+    needle: true
+  - type: gauge
+    entity: sensor.p1ib_current_l3
+    max: 25
+    unit: A
+    needle: true
+    severity:
+      green: 0
+      yellow: 16
+      red: 20
+view_layout:
+  position: sidebar
+```
+
+4. Adjust the "green:", "yellow:" and "red:" values based on your main fuse amperage and limits you want to have in the gauges.
+
+5. Press "Save". Your done!
 
 ## Examples of automations in Home Assistant
 
-todo: add examples
+The examples requires some knowledge about the automation system in Home Assistant.
+https://www.home-assistant.io/docs/automation/
 
+### Example: Disable power switch when fuse amperage is above a given threshold
+
+todo: add example
 
 # Homey App
 
