@@ -259,7 +259,7 @@ series:
 
 ```
 
-Change the "sensor.nordpool_kwh_se3_sek_3_10_025" to your nordpool sensor of choice in the code above. The sensor is named based on your geograpically location.
+Change the "sensor.nordpool_kwh_se3_sek_3_10_025" to your nordpool sensor of choice in the code above. The sensor is named based on your geographical location.
 
 5. Press "Save". Your done!
 
