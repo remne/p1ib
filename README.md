@@ -55,7 +55,7 @@ P1IB is normally powered by the P1 port.
 
 Communication with the p1ib are done through Wi-Fi.
 
-The hardware can normally be bought at https://remne.tech
+The hardware can normally be bought at [https://remne.tech](https://remne.tech)
 
 ![Hardware](images/hw_rev_d.jpg?raw=true "Hardware")
 ![Case](images/case2.jpg?raw=true)
@@ -187,7 +187,7 @@ Home Assistant needs som manual configuration to enable it to collect energy sta
 ### Apex charts with energy consumption and electricity spot price from nordpool
 ![Energy graph](images/energy_apex_charts.jpg?raw=true)
 
-1. Install apex charts card (https://github.com/RomRider/apexcharts-card) and nordpool integration (https://github.com/custom-components/nordpool)
+1. Install apex charts card [https://github.com/RomRider/apexcharts-card](https://github.com/RomRider/apexcharts-card) and nordpool integration [https://github.com/custom-components/nordpool](https://github.com/custom-components/nordpool)
 
 
 2. Create a per hour energy (kWh) sensor based on the p1ib energy import sensor. 
@@ -314,7 +314,7 @@ view_layout:
 ## Examples of automations in Home Assistant
 
 The examples requires some knowledge about the automation system in Home Assistant.
-https://www.home-assistant.io/docs/automation/
+[https://www.home-assistant.io/docs/automation](https://www.home-assistant.io/docs/automation)
 
 ### Example: Disable power switch when fuse amperage is above a given threshold
 
@@ -322,7 +322,7 @@ todo: add example
 
 # Homey App
 
-P1IB supports homey! A homey app is available at https://homey.app/sv-se/app/nu.ahlner.p1ib/p1ib/.
+P1IB supports homey! A homey app is available at [https://homey.app/sv-se/app/nu.ahlner.p1ib/p1ib](https://homey.app/sv-se/app/nu.ahlner.p1ib/p1ib)
 
 The app is developed by Erik Ahlner (whyz). Source code available at https://github.com/whyz/homey-p1ib.
 
