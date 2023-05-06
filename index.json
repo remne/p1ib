@@ -20,7 +20,7 @@
       "build": "bc223ff",
       "build_date": "20230506",
       "status": "Development",
-      "changelog": "- Combined import/export sensor (for solar production)<br/>- UI password authentication<br/>- Factory reset",
+      "changelog": "- Fix wifi scan javascript bug<br/>- Combined import/export sensor (for solar production)<br/>- UI password authentication<br/>- Factory reset",
       "blob": "blobs/bc223ff.bin"
     }
   ]
