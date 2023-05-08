@@ -62,13 +62,14 @@ The hardware can normally be bought at [https://remne.tech](https://remne.tech)
 
 ## Supported smart power meters
 Verified to work on the following meters:
-- Aidon 6534 (both old and upgraded versions)
+- Aidon 6000 & 7000 series (6534 is the most common one, both old and upgraded versions)
 - Landis-Gyr E360 (E.on)
 - Sagemcom T211/S211
 - S34U18
 - Star STZ351
 - Kamstrup OMNIA (not old OMNIPOWER)
 - Itron A100/A300
+- Kaifa MA304
 
 Will probably work on all Mode D based AMS.
 
@@ -113,7 +114,7 @@ Connect to Wi-Fi access point named "p1ib" without a password with your preferre
 8. At this point it is recommended press the menu icon once again. If the "firmware" menu option have an *red badge* with an '!' on it, it means that there is a new firmware available. It is recommended to always update to the latest recommended firmware in the firmware-page.
 
 
-Note. Only the Chrome web browser is supported at this moment due to certain javascript dependencies. 
+Note. Only the Chrome web browser is supported at this moment due to certain javascript dependencies.
 
 
 
@@ -190,7 +191,7 @@ Home Assistant needs som manual configuration to enable it to collect energy sta
 1. Install apex charts card [https://github.com/RomRider/apexcharts-card](https://github.com/RomRider/apexcharts-card) and nordpool integration [https://github.com/custom-components/nordpool](https://github.com/custom-components/nordpool)
 
 
-2. Create a per hour energy (kWh) sensor based on the p1ib energy import sensor. 
+2. Create a per hour energy (kWh) sensor based on the p1ib energy import sensor.
     - Go to home assistant
     - Click Settings -> Devices & Services -> Helpers
     - Click "+ CREATE HELPER"-button
@@ -200,9 +201,9 @@ Home Assistant needs som manual configuration to enable it to collect energy sta
     - Meter reset cycle: hourly
     - Press "Submit"
 
-3. Go to your dashboard of choice in home assistant, press the "..." icon and "Edit dashboard". 
+3. Go to your dashboard of choice in home assistant, press the "..." icon and "Edit dashboard".
 
-   ![Edit dashboard](images/ha_edit_dashboard.jpg?raw=true) 
+   ![Edit dashboard](images/ha_edit_dashboard.jpg?raw=true)
 
 4. Press the button "+ ADD CARD". Scroll to the bottom and select under Manual, "Need to add a custom card or just want to manually write the YAML?"
 
@@ -267,7 +268,7 @@ Change the "sensor.nordpool_kwh_se3_sek_3_10_025" to your nordpool sensor of cho
 
 ![Current meters](images/ha_current_gauges.jpg?raw=true)
 
-1. Go to your dashboard of choice in home assistant, press the "..." icon and "Edit dashboard". 
+1. Go to your dashboard of choice in home assistant, press the "..." icon and "Edit dashboard".
 
 2. Press the button "+ ADD CARD". Scroll to the bottom and select under Manual, "Need to add a custom card or just want to manually write the YAML?"
 
