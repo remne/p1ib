@@ -20,7 +20,6 @@
   - [Examples of automations in Home Assistant](#examples-of-automations-in-home-assistant)
     - [Example: Disable power switch when fuse amperage is above a given threshold](#example-disable-power-switch-when-fuse-amperage-is-above-a-given-threshold)
 - [Homey App](#homey-app)
-- [Plastic case](#plastic-case)
 - [FAQ / Trouble shooting](#faq--trouble-shooting)
 
 
@@ -28,6 +27,7 @@
 P1IB (pronounced p-l-i-b) is a software (and hardware) designed to read and parse advanced power meter (AMS) telegrams from the P1
 interface port (RJ12) and to send the result to a consumer service, for instance Home Assistant.
 
+![AMS and p1ib](images/p1ib2.jpg?raw=true "AMS and p1ib")
 ![AMS and p1ib](images/meter.jpg?raw=true "AMS and p1ib")
 
 ## Features
@@ -329,13 +329,6 @@ The app is developed by Erik Ahlner (whyz). Source code available at https://git
 
 ![Homey1](images/homey1.png?raw=true)
 ![Homey2](images/homey2.png?raw=true)
-
-# Plastic case
-The case is a 3d-printed plastic case, with a CNC routed plexiglas piece for the LEDs.
-
-![Case](images/case1.jpg?raw=true)
-![Case](images/case_3dprinting.jpg?raw=true)
-![Case](images/ledthingy.jpg?raw=true)
 
 # FAQ / Trouble shooting
 Q: The LED light pulses with red color, what does it mean?
