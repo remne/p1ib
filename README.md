@@ -82,6 +82,7 @@ Aidon meters comes in two flavors, where recently updated meters use Mode-D and 
 
 ![Mode](images/settings_power_meter_modes.jpg?raw=true "Mode")
 
+Note. In latest firmware the power meter mode is automatically detected.
 
 # Powermeter prerequisite
 
@@ -331,6 +332,16 @@ The app is developed by Erik Ahlner (whyz). Source code available at https://git
 ![Homey2](images/homey2.png?raw=true)
 
 # FAQ / Trouble shooting
+Q: I have changed WiFi settings and set the p1ib to connect to my home WiFi accesspoint - but I cannot find p1ib on my local network.
+
+A: There are several reasons and solutions:
+1. You entered incorrect password for your accesspoint - in this case p1ib will return to AP-mode in a couple of seconds. Wait and watch out for the p1ib-ssid in your wifi scanning.
+2. Your device does not support mDNS. You need to figure out what IP-address the p1ib have been assigned to. Go to your router/DHCP-servers client list to find out the IP.
+3. Get help in the community facebook group named "P1IB / P1 Interface Bridge - support" (https://www.facebook.com/groups/385403882937131).
+4. If 1 och 2 does not solve the problem, then the best way to understand the problem is to connect the p1ib to your PC via USB. Install the CH340 drivers if needed (http://www.wch-ic.com/downloads/CH341SER_EXE.html), linux users doesn't need any drivers). Connect to the usb-serial port with your favorite terminal program (putty for instance), baud rate 200000. The P1IB will log current state to the usb connection.
+5. Flash new firmware onto the device via USB, which will reset all settings and force p1ib to AP-mode. https://remne.github.io/p1ib/webflash/
+6. Send E-mail to hello@remne.tech.
+
 Q: The LED light pulses with red color, what does it mean?
 
 A: It means p1ib is in AP mode, and needs to be configured. Connect to the Wi-Fi access point named "p1ib" and browse to http://192.168.1.1. You might need to disable "Mobile data" on your phone to be able to access it.
