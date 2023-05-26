@@ -17,11 +17,11 @@
       "blob": "blobs/cf2bfdd.bin"
     },
     {
-      "build": "ee707cf",
+      "build": "62e4665",
       "build_date": "20230526",
       "status": "Development",
       "changelog": "- sailfish webclient support",
-      "blob": "blobs/ee707cf.bin"
+      "blob": "blobs/62e4665.bin"
     }
   ]
 }
