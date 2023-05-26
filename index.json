@@ -10,18 +10,18 @@
       "blob": "blobs/fcd8d4a.bin"
     },
     {
-      "build": "97b55c9",
-      "build_date": "20220422",
-      "status": "Stable",
-      "changelog": "- Home Assistant availiability support (MQTT will/testament)<br/>- Timestamp and firmware upgrade sensor</br>- Improve LED blinking schema</br>Remove 'homeassistant/sensor/'-part from MQTT state topics<br/>- '<i>P1IB</i>' remove from HA sensors friendly name<br/>- Energy export and momentary power export in summary card<br/>- P1ib svg icon header in menus<br/>- Change to correct device class on sensors (note kVArh not supported by HA, will produce varnings)<br/>- Add separate availability topic for telegram received sensor<br/>- Add NTP servers configurable from web ui<br/>- Fix uptime overflow bug<br/>- Custom/hidden Wi-Fi SSID<br/>- Static ip<br/>- Wifi retry and ap-mode timeout setting<br/>- Support for Homey",
-      "blob": "blobs/97b55c9.bin"
-    },
-    {
       "build": "cf2bfdd",
       "build_date": "20230508",
       "status": "Development",
       "changelog": "- Auto detect meter mode<br/>- Changed MQTT auto discovery online state behavior<br/>- Fix wifi scan javascript bug<br/>- Combined import/export sensor<br/>- UI password protection<br/>- Factory reset",
       "blob": "blobs/cf2bfdd.bin"
+    },
+    {
+      "build": "ee707cf",
+      "build_date": "20230526",
+      "status": "Development",
+      "changelog": "- sailfish webclient support",
+      "blob": "blobs/ee707cf.bin"
     }
   ]
 }
