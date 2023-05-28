@@ -10,18 +10,11 @@
       "blob": "blobs/fcd8d4a.bin"
     },
     {
-      "build": "cf2bfdd",
-      "build_date": "20230508",
-      "status": "Development",
-      "changelog": "- Auto detect meter mode<br/>- Changed MQTT auto discovery online state behavior<br/>- Fix wifi scan javascript bug<br/>- Combined import/export sensor<br/>- UI password protection<br/>- Factory reset",
-      "blob": "blobs/cf2bfdd.bin"
-    },
-    {
-      "build": "62e4665",
+      "build": "3e928b3",
       "build_date": "20230526",
       "status": "Development",
-      "changelog": "- sailfish webclient support",
-      "blob": "blobs/62e4665.bin"
+      "changelog": "- Auto detect meter mode<br/>- Changed MQTT auto discovery online state behavior<br/>- Fix wifi scan javascript bug<br/>- Combined import/export sensor<br/>- UI password protection<br/>- Factory reset<br/>- Webclient support validation changed<br/>- Minor various changes",
+      "blob": "blobs/3e928b3.bin"
     }
   ]
 }
