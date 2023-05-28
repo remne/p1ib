@@ -10,11 +10,11 @@
       "blob": "blobs/fcd8d4a.bin"
     },
     {
-      "build": "3e928b3",
+      "build": "e74c477",
       "build_date": "20230526",
       "status": "Development",
       "changelog": "- Auto detect meter mode<br/>- Changed MQTT auto discovery online state behavior<br/>- Fix wifi scan javascript bug<br/>- Combined import/export sensor<br/>- UI password protection<br/>- Factory reset<br/>- Webclient support validation changed<br/>- Minor various changes",
-      "blob": "blobs/3e928b3.bin"
+      "blob": "blobs/e74c477.bin"
     }
   ]
 }
