@@ -1,15 +1,28 @@
 <html>
-<script type="module" src="https://unpkg.com/esp-web-tools@7.0.0/dist/web/install-button.js?module"></script>
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script type="module" src="https://unpkg.com/esp-web-tools@7.0.0/dist/web/install-button.js?module"></script>
+
+</head>
 
 <body>
-    <div>
-        P1IB 97b55c9 firmware
-        <esp-web-install-button manifest="manifest_97b55c9.json"></esp-web-install-button>
 
+    <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--6-col">P1IB stable firmware</div>
+        <div class="mdl-cell mdl-cell--4-col">
+            <esp-web-install-button manifest="manifest_stable.json"></esp-web-install-button>
+        </div>
     </div>
-    <div>
-        P1IB cf2bfdd development firmware
-        <esp-web-install-button manifest="manifest_cf2bfdd.json"></esp-web-install-button>
+    <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--6-col">P1IB development firmware</div>
+        <div class="mdl-cell mdl-cell--4-col">
+            <esp-web-install-button manifest="manifest_dev.json"></esp-web-install-button>
+        </div>
     </div>
+
 </body>
+
 </html>
