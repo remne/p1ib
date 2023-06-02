@@ -63,11 +63,11 @@ The hardware can normally be bought at [https://remne.tech](https://remne.tech)
 ## Supported smart power meters
 Verified to work on the following meters:
 - Aidon 6000 & 7000 series (6534 is the most common one, both old and upgraded versions)
-- Landis-Gyr E360 (E.on)
+- Landis-Gyr E360
 - Sagemcom T211/S211
-- S34U18
+- Sanxing S34U18
 - Star STZ351
-- Kamstrup OMNIA (not old OMNIPOWER)
+- Kamstrup OMNIA
 - Itron A100/A300
 - Kaifa MA304
 
@@ -75,7 +75,7 @@ Will probably work on all Mode D based AMS.
 
 Does not work on:
 - ISKRA AM550 (E.on) - E.on cannot activate the P1 port on this meter.
-- Kamstrup OMNIPOWER - p1ib can be modified to work with this meter, however, not recommended. OMNIPOWERs P1 port is not compliant with the standard.
+- Kamstrup OMNIPOWER - p1ib can be modified to work with this meter, however, not recommended. OMNIPOWERs P1 port is not compliant with the P1-standard.
 
 ### Note on Aidon meters
 Aidon meters comes in two flavors, where recently updated meters use Mode-D and older ones Mode-E protocol. If you dont get any data in the dashboard, change power meter mode in the settings menu.
