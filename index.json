@@ -1,6 +1,6 @@
 {
-  "recommended": "fcd8d4a",
-  "latest": "fcd8d4a",
+  "recommended": "e74c477",
+  "latest": "e74c477",
   "blobs": [
     {
       "build": "fcd8d4a",
@@ -12,7 +12,7 @@
     {
       "build": "e74c477",
       "build_date": "20230526",
-      "status": "Development",
+      "status": "Stable",
       "changelog": "- Auto detect meter mode<br/>- Changed MQTT auto discovery online state behavior<br/>- Fix wifi scan javascript bug<br/>- Combined import/export sensor<br/>- UI password protection<br/>- Factory reset<br/>- Webclient support validation changed<br/>- Minor various changes",
       "blob": "blobs/e74c477.bin"
     }
