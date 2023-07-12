@@ -1,15 +1,15 @@
 {
   "name": "P1IB Stable",
-  "version": "fcd8d4a",
+  "version": "e74c477",
   "new_install_prompt_erase": false,
   "builds": [
     {
       "chipFamily": "ESP32",
       "parts": [
-        { "path": "stable/bootloader_dio_40m.bin", "offset": 4096 },
-        { "path": "stable/partitions.bin", "offset": 32768 },
-        { "path": "stable/boot_app0.bin", "offset": 57344 },
-        { "path": "stable/fcd8d4a.bin", "offset": 65536 }
+        { "path": "stable_e74c477/bootloader_dio_40m.bin", "offset": 4096 },
+        { "path": "stable_e74c477/partitions.bin", "offset": 32768 },
+        { "path": "stable_e74c477/boot_app0.bin", "offset": 57344 },
+        { "path": "stable_e74c477/e74c477.bin", "offset": 65536 }
       ]
     }
   ]
