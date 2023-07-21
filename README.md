@@ -27,6 +27,8 @@
 P1IB (pronounced p-l-i-b) is a software (and hardware) designed to read and parse advanced power meter (AMS) telegrams from the P1
 interface port (RJ12) and to send the result to a consumer service, for instance Home Assistant.
 
+Visit [https://remne.tech](https://remne.tech) for more information.
+
 ![AMS and p1ib](images/p1ib2.jpg?raw=true "AMS and p1ib")
 ![AMS and p1ib](images/meter.jpg?raw=true "AMS and p1ib")
 
