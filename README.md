@@ -340,7 +340,7 @@ A: There are several reasons and solutions:
 1. You entered incorrect password for your accesspoint - in this case p1ib will return to AP-mode in a couple of seconds. Wait and watch out for the p1ib-ssid in your wifi scanning.
 2. Your device does not support mDNS. You need to figure out what IP-address the p1ib have been assigned to. Go to your router/DHCP-servers client list to find out the IP.
 3. Get help in the community facebook group named "P1IB / P1 Interface Bridge - support" (https://www.facebook.com/groups/385403882937131).
-4. If 1 och 2 does not solve the problem, then the best way to understand the problem is to connect the p1ib to your PC via USB. Install the CH340 drivers if needed (http://www.wch-ic.com/downloads/CH341SER_EXE.html), linux users doesn't need any drivers). Connect to the usb-serial port with your favorite terminal program (putty for instance), baud rate 200000. The P1IB will log current state to the usb connection.
+4. If 1 och 2 does not solve the problem, then the best way to understand the problem is to connect the p1ib to your PC via USB. Install the CH340 drivers if needed (http://www.wch-ic.com/downloads/CH341SER_EXE.html), linux users doesn't need any drivers). Connect to the usb-serial port with your favorite terminal program (putty for instance), baud rate 2000000. The P1IB will log current state to the usb connection.
 5. Flash new firmware onto the device via USB, which will reset all settings and force p1ib to AP-mode. https://remne.github.io/p1ib/webflash/
 6. Send E-mail to hello@remne.tech.
 
