@@ -3,18 +3,18 @@
   "latest": "e74c477",
   "blobs": [
     {
-      "build": "fcd8d4a",
-      "build_date": "20221017",
-      "status": "Stable",
-      "changelog": "- Improved mode D parser<br/>Add Landis-Gyr E360 old firmware workaround<br/>- Compensate for bug in STAR meters<br/>Add reduced data mode<br/>- Chart.js added to flash<br/>- WiFi scan timeout bug fixed<br/>- mqtt p1ib/state aligned with other sensors",
-      "blob": "blobs/fcd8d4a.bin"
-    },
-    {
       "build": "e74c477",
       "build_date": "20230526",
       "status": "Stable",
       "changelog": "- Auto detect meter mode<br/>- Changed MQTT auto discovery online state behavior<br/>- Fix wifi scan javascript bug<br/>- Combined import/export sensor<br/>- UI password protection<br/>- Factory reset<br/>- Webclient support validation changed<br/>- Minor various changes",
       "blob": "blobs/e74c477.bin"
+    },
+    {
+      "build": "87042a5",
+      "build_date": "20230804",
+      "status": "Development",
+      "changelog": "- Align sensor names to latest Home Assistant release rules.<br/>- Current gauges cards in web UI.<br/>- AWS IoT Core/MQTT TLS support.<br/>",
+      "blob": "blobs/87042a5.bin"
     }
   ]
 }
