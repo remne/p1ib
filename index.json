@@ -10,11 +10,11 @@
       "blob": "blobs/e74c477.bin"
     },
     {
-      "build": "87042a5",
-      "build_date": "20230804",
+      "build": "ca6d4a7",
+      "build_date": "20230821",
       "status": "Development",
-      "changelog": "- Align sensor names to latest Home Assistant release rules.<br/>- Current gauges cards in web UI.<br/>- AWS IoT Core/MQTT TLS support.<br/>",
-      "blob": "blobs/87042a5.bin"
+      "changelog": "- Align sensor names to latest Home Assistant release rules.<br/>- Current gauges cards in web UI.<br/>- AWS IoT Core/MQTT TLS support.<br/>- Add fuse support for p1ib with external antenna",
+      "blob": "blobs/ca6d4a7.bin"
     }
   ]
 }
