@@ -8,6 +8,13 @@
       "status": "Stable",
       "changelog": "- Auto detect meter mode<br/>- Changed MQTT auto discovery online state behavior<br/>- Fix wifi scan javascript bug<br/>- Combined import/export sensor<br/>- UI password protection<br/>- Factory reset<br/>- Webclient support validation changed<br/>- Minor various changes",
       "blob": "blobs/e74c477.bin"
+    },
+    {
+      "build": "adcc0f7",
+      "build_date": "20230914",
+      "status": "Development",
+      "changelog": "- Align sensor names to latest Home Assistant release rules.<br/>- Current gauges cards in web UI.<br/>- AWS IoT Core/MQTT TLS support.<br/>- Optional JSON payload for sensor states.",
+      "blob": "blobs/adcc0f7.bin"
     }
   ]
 }
