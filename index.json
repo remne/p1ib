@@ -10,11 +10,11 @@
       "blob": "blobs/e74c477.bin"
     },
     {
-      "build": "adcc0f7",
-      "build_date": "20230914",
+      "build": "9c2ad9a",
+      "build_date": "20230922",
       "status": "Development",
-      "changelog": "- Align sensor names to latest Home Assistant release rules.<br/>- Current gauges cards in web UI.<br/>- AWS IoT Core/MQTT TLS support.<br/>- Optional JSON payload for sensor states. <b>NOTE! Do not enable json payload if you already have statistics in Home Assistant. It will be removed and the power meters import energy (kWh) will be sampled as todays consumtion from day 0.</b>",
-      "blob": "blobs/adcc0f7.bin"
+      "changelog": "- State class warnings in HA fixed.<br/>- Align sensor names to latest Home Assistant release rules.<br/>- Current gauges cards in web UI.<br/>- AWS IoT Core/MQTT TLS support.<br/>- Optional JSON payload for sensor states. <b>NOTE! Do not enable json payload if you already have statistics in Home Assistant. It will be removed and the power meters import energy (kWh) will be sampled as todays consumtion from day 0.</b>",
+      "blob": "blobs/9c2ad9a.bin"
     }
   ]
 }
