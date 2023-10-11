@@ -3,13 +3,6 @@
   "latest": "9c2ad9a",
   "blobs": [
     {
-      "build": "e74c477",
-      "build_date": "20230526",
-      "status": "Stable",
-      "changelog": "- Auto detect meter mode<br/>- Changed MQTT auto discovery online state behavior<br/>- Fix wifi scan javascript bug<br/>- Combined import/export sensor<br/>- UI password protection<br/>- Factory reset<br/>- Webclient support validation changed<br/>- Minor various changes",
-      "blob": "blobs/e74c477.bin"
-    },
-    {
       "build": "9c2ad9a",
       "build_date": "20230922",
       "status": "Stable",
