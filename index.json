@@ -10,11 +10,11 @@
       "blob": "blobs/9c2ad9a.bin"
     },
     {
-      "build": "4afb28e",
-      "build_date": "20231011",
+      "build": "376ff52",
+      "build_date": "20231017",
       "status": "Development",
-      "changelog": "- HA auto discovery UI switch.<br/>- Improvements for json payload.<br/>",
-      "blob": "blobs/4afb28e.bin"
+      "changelog": "- HA auto discovery UI switch.<br/>- JSON payload improvements.<br/>",
+      "blob": "blobs/376ff52.bin"
     }
   ]
 }
