@@ -2,7 +2,6 @@
   - [Features](#features)
   - [Hardware](#hardware)
   - [Supported smart power meters](#supported-smart-power-meters)
-    - [Note on Aidon meters](#note-on-aidon-meters)
 - [Powermeter prerequisite](#powermeter-prerequisite)
 - [First time usage](#first-time-usage)
 - [Menues](#menues)
@@ -78,13 +77,6 @@ Will probably work on all Mode D based AMS.
 Does not work on:
 - ISKRA AM550 (E.on) - E.on cannot activate the P1 port on this meter.
 - Kamstrup OMNIPOWER - p1ib can be modified to work with this meter, however, not recommended. OMNIPOWERs P1 port is not compliant with the P1-standard.
-
-### Note on Aidon meters
-Aidon meters comes in two flavors, where recently updated meters use Mode-D and older ones Mode-E protocol. If you dont get any data in the dashboard, change power meter mode in the settings menu.
-
-![Mode](images/settings_power_meter_modes.jpg?raw=true "Mode")
-
-Note. In latest firmware the power meter mode is automatically detected.
 
 # Powermeter prerequisite
 
