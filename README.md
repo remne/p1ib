@@ -101,7 +101,7 @@ There is no need to connect a USB cable to the p1ib. It is powered via the P1/HA
 
 Connect to Wi-Fi access point named "p1ib" without a password with your preferred device (phone or laptop for instance). You might need to disable "Mobile data" on your phone, otherwise it will try to connect via your cellular network provider.
 
-3. When in AP-mode, IP 192.168.1.1 is set on the p1ib. Go to http://192.168.1.1/ or http://p1ib.local/ with the Chrome webbrowser to enter the configuration user interface.
+3. When in AP-mode, IP 192.168.1.1 is set on the p1ib. Go to http://192.168.1.1/ or http://p1ib.local/ with the webbrowser to enter the configuration user interface.
 
 4. Press the menu icon in top left corner, and enter the 'Settings' menu. Here it is possible to scan for your home Wi-Fi accesspoint (SSID), set an SSID password and enable other features.
 
@@ -115,11 +115,6 @@ Connect to Wi-Fi access point named "p1ib" without a password with your preferre
 7. When entering http://p1ib.local/ (or the IP number) in the webbrowser url you will once again see the dashboard. If you selected correct power meter option in the settings page you will see the graphs beeing updated with your current power consumption.
 
 8. At this point it is recommended press the menu icon once again. If the "firmware" menu option have an *red badge* with an '!' on it, it means that there is a new firmware available. It is recommended to always update to the latest recommended firmware in the firmware-page.
-
-
-Note. Only the Chrome web browser is supported at this moment due to certain javascript dependencies.
-
-
 
 
 # Menues
