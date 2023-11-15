@@ -10,11 +10,11 @@
       "blob": "blobs/9c2ad9a.bin"
     },
     {
-      "build": "376ff52",
-      "build_date": "20231017",
+      "build": "083b880",
+      "build_date": "20231115",
       "status": "Development",
-      "changelog": "- HA auto discovery UI switch.<br/>- JSON payload improvements.<br/>",
-      "blob": "blobs/376ff52.bin"
+      "changelog": "- Improve wifi connection/reconnect behavior<br/>- HA auto discovery UI switch.<br/>- JSON payload improvements.<br/>",
+      "blob": "blobs/083b880.bin"
     }
   ]
 }
