@@ -10,11 +10,11 @@
       "blob": "blobs/9c2ad9a.bin"
     },
     {
-      "build": "083b880",
-      "build_date": "20231115",
+      "build": "774b749",
+      "build_date": "20231127",
       "status": "Development",
-      "changelog": "- Improve wifi connection/reconnect behavior<br/>- HA auto discovery UI switch.<br/>- JSON payload improvements.<br/>",
-      "blob": "blobs/083b880.bin"
+      "changelog": "- Add support for yet another broken STAR-meter<br/>- Improve wifi connection/reconnect behavior<br/>- HA auto discovery UI switch.<br/>- JSON payload improvements.<br/>",
+      "blob": "blobs/774b749.bin"
     }
   ]
 }
