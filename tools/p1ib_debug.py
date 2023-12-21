@@ -24,14 +24,24 @@ sock.bind((UDP_IP, UDP_PORT))
 
 line = 0
 
-try:
+while True:
     f = open("p1ib.log", "a")
-    while True:
-        data, addr = sock.recvfrom(1024)
-        s = "{:8d}:{}".format(line, data.decode("utf-8"))
-        print(s, end='')
-        f.write(s)
-        f.flush()
-        line += 1
-except KeyboardInterrupt:
+    try:
+        while True:
+            try:
+                data, addr = sock.recvfrom(1024)
+                s = "{:8d}:{}".format(line, data.decode("utf-8"))
+                print(s, end='')
+                f.write(s)
+                f.flush()
+                line += 1
+            except KeyboardInterrupt:
+                print("Keyboard except")
+                exit(0)
+            except Exception as e:
+                print("exception")
+                print(e)
+                break
+    except Exception as e:
+        print("exception" + e)
     f.close()
