@@ -10,11 +10,11 @@
       "blob": "blobs/9c2ad9a.bin"
     },
     {
-      "build": "774b749",
-      "build_date": "20231127",
+      "build": "82f3b9b",
+      "build_date": "20240106",
       "status": "Development",
-      "changelog": "- Add support for yet another broken STAR-meter<br/>- Improve wifi connection/reconnect behavior<br/>- HA auto discovery UI switch.<br/>- JSON payload improvements.<br/>",
-      "blob": "blobs/774b749.bin"
+      "changelog": "- Increase mqtt password length.<br/>- Add ethernet support (P1IB-eth).<br/>- improve STAR-meters corrupt data compensation.<br/>- Improve wifi connection/reconnect behavior<br/>- HA auto discovery UI switch.<br/>- JSON payload improvements.<br/>",
+      "blob": "blobs/82f3b9b.bin"
     }
   ]
 }
