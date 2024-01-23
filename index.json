@@ -10,11 +10,11 @@
       "blob": "blobs/9c2ad9a.bin"
     },
     {
-      "build": "b250a5c",
+      "build": "2564e25",
       "build_date": "20240123",
       "status": "Development",
       "changelog": "- Increase mqtt password length.<br/>- Add ethernet support (P1IB-eth).<br/>- improve STAR-meters corrupt data compensation.<br/>- Improve wifi connection/reconnect behavior<br/>- HA auto discovery UI switch.<br/>- JSON payload improvements.<br/>",
-      "blob": "blobs/b250a5c.bin"
+      "blob": "blobs/2564e25.bin"
     }
   ]
 }
