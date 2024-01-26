@@ -1,15 +1,27 @@
 {
   "name": "P1IB Development",
-  "version": "e74c477",
+  "version": "e9309dd",
   "new_install_prompt_erase": false,
   "builds": [
     {
       "chipFamily": "ESP32",
       "parts": [
-        { "path": "dev/bootloader_dio_40m.bin", "offset": 4096 },
-        { "path": "dev/partitions.bin", "offset": 32768 },
-        { "path": "dev/boot_app0.bin", "offset": 57344 },
-        { "path": "dev/e74c477.bin", "offset": 65536 }
+        {
+          "path": "dev_e9309dd/bootloader_dio_40m.bin",
+          "offset": 4096
+        },
+        {
+          "path": "dev_e9309dd/partitions.bin",
+          "offset": 32768
+        },
+        {
+          "path": "dev_e9309dd/boot_app0.bin",
+          "offset": 57344
+        },
+        {
+          "path": "dev_e9309dd/firmware.bin",
+          "offset": 65536
+        }
       ]
     }
   ]
