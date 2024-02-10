@@ -1,25 +1,25 @@
 {
   "name": "P1IB Development",
-  "version": "e9309dd",
+  "version": "0f3e780",
   "new_install_prompt_erase": false,
   "builds": [
     {
       "chipFamily": "ESP32",
       "parts": [
         {
-          "path": "dev_e9309dd/bootloader_dio_40m.bin",
+          "path": "dev_0f3e780/bootloader_dio_40m.bin",
           "offset": 4096
         },
         {
-          "path": "dev_e9309dd/partitions.bin",
+          "path": "dev_0f3e780/partitions.bin",
           "offset": 32768
         },
         {
-          "path": "dev_e9309dd/boot_app0.bin",
+          "path": "dev_0f3e780/boot_app0.bin",
           "offset": 57344
         },
         {
-          "path": "dev_e9309dd/firmware.bin",
+          "path": "dev_0f3e780/firmware.bin",
           "offset": 65536
         }
       ]
