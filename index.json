@@ -11,7 +11,7 @@
     },
     {
       "build": "06e1b3e",
-      "build_date": "20240210",
+      "build_date": "20240211",
       "status": "Development",
       "changelog": "- Increase mqtt password length.<br/>- Add ethernet support (P1IB-eth).<br/>- improve STAR-meters corrupt data compensation.<br/>- Improve wifi connection/reconnect behavior<br/>- HA auto discovery UI switch.<br/>- JSON payload improvements.<br/>",
       "blob": "blobs/06e1b3e.bin"
