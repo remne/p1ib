@@ -1,6 +1,6 @@
 {
-  "recommended": "9c2ad9a",
-  "latest": "9c2ad9a",
+  "recommended": "aae1e85",
+  "latest": "aae1e85",
   "blobs": [
     {
       "build": "9c2ad9a",
@@ -12,7 +12,7 @@
     {
       "build": "aae1e85",
       "build_date": "20240212",
-      "status": "Development",
+      "status": "Stable",
       "changelog": "- Telegram interval measurement.<br/>- Add additional main fuse values.<br/>- Fix issue when AP SSID is hidden.<br/>- Increase mqtt password length.<br/>- Add ethernet support (P1IB-eth).<br/>- improve STAR-meters corrupt data compensation.<br/>- Improve wifi/mqtt connection/reconnect behavior.<br/>- HA auto discovery UI switch.<br/>- JSON payload improvements.<br/>",
       "blob": "blobs/aae1e85.bin"
     }
