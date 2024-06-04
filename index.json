@@ -15,6 +15,13 @@
       "status": "Stable",
       "changelog": "- Telegram interval measurement.<br/>- Add additional main fuse values.<br/>- Fix issue when AP SSID is hidden.<br/>- Increase mqtt password length.<br/>- Add ethernet support (P1IB-eth).<br/>- improve STAR-meters corrupt data compensation.<br/>- Improve wifi/mqtt connection/reconnect behavior.<br/>- HA auto discovery UI switch.<br/>- JSON payload improvements.<br/>",
       "blob": "blobs/aae1e85.bin"
+    },
+    {
+      "build": "fc893f5",
+      "build_date": "20240604",
+      "status": "Development",
+      "changelog": "- Improved Wi-Fi mesh support (bssid selectable).<br/>- Transformer ratio constant support.<br/>- Additional broken STAR meter support.</br>",
+      "blob": "blobs/fc893f5.bin"
     }
   ]
 }
