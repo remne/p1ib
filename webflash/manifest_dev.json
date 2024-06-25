@@ -1,25 +1,25 @@
 {
   "name": "P1IB Development",
-  "version": "fc893f5",
+  "version": "f934567",
   "new_install_prompt_erase": false,
   "builds": [
     {
       "chipFamily": "ESP32",
       "parts": [
         {
-          "path": "dev_fc893f5/bootloader_dio_40m.bin",
+          "path": "dev_f934567/bootloader_dio_40m.bin",
           "offset": 4096
         },
         {
-          "path": "dev_fc893f5/partitions.bin",
+          "path": "dev_f934567/partitions.bin",
           "offset": 32768
         },
         {
-          "path": "dev_fc893f5/boot_app0.bin",
+          "path": "dev_f934567/boot_app0.bin",
           "offset": 57344
         },
         {
-          "path": "dev_fc893f5/firmware.bin",
+          "path": "dev_f934567/firmware.bin",
           "offset": 65536
         }
       ]

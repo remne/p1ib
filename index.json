@@ -17,11 +17,11 @@
       "blob": "blobs/aae1e85.bin"
     },
     {
-      "build": "fc893f5",
-      "build_date": "20240604",
+      "build": "f934567",
+      "build_date": "20240625",
       "status": "Development",
-      "changelog": "- Improved Wi-Fi mesh support (bssid selectable).<br/>- Transformer ratio constant support.<br/>- Additional broken STAR meter support.</br>",
-      "blob": "blobs/fc893f5.bin"
+      "changelog": "- MQTT password length increased to 64 chars.<br/>- Items re-arranged in settings ui<br/>- Improved Wi-Fi mesh support (bssid selectable).<br/>- Transformer ratio constant support.<br/>- Additional broken STAR meter support.</br>",
+      "blob": "blobs/f934567.bin"
     }
   ]
 }
