@@ -1,13 +1,13 @@
 {
-  "recommended": "aae1e85",
-  "latest": "aae1e85",
+  "recommended": "f934567",
+  "latest": "f934567",
   "blobs": [
     {
-      "build": "9c2ad9a",
-      "build_date": "20230922",
+      "build": "f934567",
+      "build_date": "20240625",
       "status": "Stable",
-      "changelog": "- State class warnings in HA fixed.<br/>- Align sensor names to latest Home Assistant release rules.<br/>- Current gauges cards in web UI.<br/>- AWS IoT Core/MQTT TLS support.<br/>- Optional JSON payload for sensor states. <b>NOTE! Do not enable json payload if you already have statistics in Home Assistant. It will be removed and the power meters import energy (kWh) will be sampled as todays consumtion from day 0.</b>",
-      "blob": "blobs/9c2ad9a.bin"
+      "changelog": "- MQTT password length increased to 64 chars.<br/>- Items re-arranged in settings ui.<br/>- Improved Wi-Fi mesh support (bssid selectable).<br/>- Transformer ratio constant support.<br/>- Additional broken STAR meter support.</br><br/><br/><b>Note. This version breaks compatibility with the homey app.</b>",
+      "blob": "blobs/f934567.bin"
     },
     {
       "build": "aae1e85",
@@ -17,11 +17,11 @@
       "blob": "blobs/aae1e85.bin"
     },
     {
-      "build": "f934567",
-      "build_date": "20240625",
-      "status": "Development",
-      "changelog": "- MQTT password length increased to 64 chars.<br/>- Items re-arranged in settings ui.<br/>- Improved Wi-Fi mesh support (bssid selectable).<br/>- Transformer ratio constant support.<br/>- Additional broken STAR meter support.</br><br/><br/><b>Note. This version breaks compatibility with the homey app.</b>",
-      "blob": "blobs/f934567.bin"
+      "build": "9c2ad9a",
+      "build_date": "20230922",
+      "status": "Stable",
+      "changelog": "- State class warnings in HA fixed.<br/>- Align sensor names to latest Home Assistant release rules.<br/>- Current gauges cards in web UI.<br/>- AWS IoT Core/MQTT TLS support.<br/>- Optional JSON payload for sensor states. <b>NOTE! Do not enable json payload if you already have statistics in Home Assistant. It will be removed and the power meters import energy (kWh) will be sampled as todays consumtion from day 0.</b>",
+      "blob": "blobs/9c2ad9a.bin"
     }
   ]
 }
