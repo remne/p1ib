@@ -1,0 +1,14 @@
+# Contact Information
+Contact: hello@remne.tech
+
+# Acknowledgements
+Acknowledgements: https://remne.tech/security/acknowledgements
+
+# Vulnerability Disclosure Policy
+Policy: https://remne.tech/vulnerability-disclosure-policy
+
+# Security Updates
+Updates: https://remne.tech/security/updates
+
+# Additional Information
+AdditionalInfo: https://remne.tech

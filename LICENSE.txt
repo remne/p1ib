@@ -1,9 +1,9 @@
-The p1ib license
+The P1IB license
 
-Copyright (c) 2021 Andreas Remnehed (p1ib@mail.datamupp.com).
+Copyright (c) 2024 Andreas Remnehed.
 All rights reserved.
 
-Permission to use and distribute this software for any purpose with or without fee is hereby granted, 
+Permission to use and distribute this software for any purpose with or without fee is hereby granted,
 provided that the above copyright notice and this permission notice appear in all copies.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
