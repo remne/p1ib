@@ -3,11 +3,11 @@
   "latest": "f934567",
   "blobs": [
     {
-      "build": "54fc299",
+      "build": "602fe98",
       "build_date": "20240822",
       "status": "Development",
       "changelog": "- Passwords handling changed to 'set and forget'.<br/>- CSRF token in critical internal REST APIs.</br>- Possibility to flash other firmwares than P1IB official firmwares OTA removed.<br/>- Bump ESP-IDF to v5.3<br/>- Wi-Fi password length limited to 64 chars.<br/>- Add authentication on factory reset API.",
-      "blob": "blobs/54fc299.bin"
+      "blob": "blobs/602fe98.bin"
     },
     {
       "build": "f934567",
