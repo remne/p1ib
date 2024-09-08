@@ -3,11 +3,11 @@
   "latest": "f934567",
   "blobs": [
     {
-      "build": "19b9b6c",
+      "build": "a58dff6",
       "build_date": "20240908",
       "status": "Development",
-      "changelog": "- Add 200A fuse option<br/>- Fix transformer ratio not applied when mqtt json format is enabled.<br/>- Passwords handling changed to 'set and forget'.<br/>- CSRF token in critical internal REST APIs.</br>- Possibility to flash other firmwares than P1IB official firmwares OTA removed.<br/>- Bump ESP-IDF to v5.3<br/>- Wi-Fi password length limited to 64 chars.<br/>- Add authentication on factory reset API.",
-      "blob": "blobs/19b9b6c.bin"
+      "changelog": "- Add 200A fuse option.<br/>- Fix transformer ratio not applied when mqtt json format is enabled.<br/>- Passwords handling changed to 'set and forget'.<br/>- CSRF token in critical internal REST APIs.</br>- Possibility to flash other firmwares than P1IB official firmwares OTA removed.<br/>- Bump ESP-IDF to v5.3<br/>- Wi-Fi password length limited to 64 chars.<br/>- Add authentication on factory reset API.",
+      "blob": "blobs/a58dff6.bin"
     },
     {
       "build": "f934567",

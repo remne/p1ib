@@ -1,25 +1,25 @@
 {
   "name": "P1IB Development",
-  "version": "19b9b6c",
+  "version": "a58dff6",
   "new_install_prompt_erase": false,
   "builds": [
     {
       "chipFamily": "ESP32",
       "parts": [
         {
-          "path": "dev_19b9b6c/bootloader_dio_40m.bin",
+          "path": "dev_a58dff6/bootloader_dio_40m.bin",
           "offset": 4096
         },
         {
-          "path": "dev_19b9b6c/partitions.bin",
+          "path": "dev_a58dff6/partitions.bin",
           "offset": 32768
         },
         {
-          "path": "dev_19b9b6c/boot_app0.bin",
+          "path": "dev_a58dff6/boot_app0.bin",
           "offset": 57344
         },
         {
-          "path": "dev_19b9b6c/firmware.bin",
+          "path": "dev_a58dff6/firmware.bin",
           "offset": 65536
         }
       ]
