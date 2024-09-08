@@ -3,11 +3,11 @@
   "latest": "f934567",
   "blobs": [
     {
-      "build": "602fe98",
-      "build_date": "20240822",
+      "build": "11ddde3",
+      "build_date": "20240908",
       "status": "Development",
-      "changelog": "- Passwords handling changed to 'set and forget'.<br/>- CSRF token in critical internal REST APIs.</br>- Possibility to flash other firmwares than P1IB official firmwares OTA removed.<br/>- Bump ESP-IDF to v5.3<br/>- Wi-Fi password length limited to 64 chars.<br/>- Add authentication on factory reset API.",
-      "blob": "blobs/602fe98.bin"
+      "changelog": "- Fix transformer ratio not applied when mqtt json format is enabled.<br/>- Passwords handling changed to 'set and forget'.<br/>- CSRF token in critical internal REST APIs.</br>- Possibility to flash other firmwares than P1IB official firmwares OTA removed.<br/>- Bump ESP-IDF to v5.3<br/>- Wi-Fi password length limited to 64 chars.<br/>- Add authentication on factory reset API.",
+      "blob": "blobs/11ddde3.bin"
     },
     {
       "build": "f934567",
@@ -15,13 +15,6 @@
       "status": "Stable",
       "changelog": "- MQTT password length increased to 64 chars.<br/>- Items re-arranged in settings ui.<br/>- Improved Wi-Fi mesh support (bssid selectable).<br/>- Transformer ratio constant support.<br/>- Additional broken STAR meter support.</br><br/><br/><b>Note. This version breaks compatibility with the homey app.</b>",
       "blob": "blobs/f934567.bin"
-    },
-    {
-      "build": "aae1e85",
-      "build_date": "20240212",
-      "status": "Stable",
-      "changelog": "- Telegram interval measurement.<br/>- Add additional main fuse values.<br/>- Fix issue when AP SSID is hidden.<br/>- Increase mqtt password length.<br/>- Add ethernet support (P1IB-eth).<br/>- improve STAR-meters corrupt data compensation.<br/>- Improve wifi/mqtt connection/reconnect behavior.<br/>- HA auto discovery UI switch.<br/>- JSON payload improvements.<br/>",
-      "blob": "blobs/aae1e85.bin"
     }
   ]
 }
