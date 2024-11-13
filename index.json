@@ -6,7 +6,7 @@
       "build": "54aa555",
       "build_date": "20240922",
       "status": "Stable",
-      "changelog": "- patches a number of security vulnerabilities.<br/>Minor rearranging of the settings page.<br/>- HA auto discovery force_update option.<br/>- Custom ID json key/value.<br/>- 200A fuse option.<br/>- Fix transformer ratio not applied when mqtt json format is enabled.<br/>- Passwords handling changed to 'set and forget'.<br/>- CSRF token in critical internal REST APIs.</br>- Possibility to flash other firmwares than P1IB official firmwares OTA removed.<br/>- Bump platform<br/>- Wi-Fi password length limited to 64 chars.<br/>- Add authentication on factory reset API.",
+      "changelog": "- Patches a number of security vulnerabilities.<br/>- Minor rearranging of the settings page.<br/>- HA auto discovery force_update option.<br/>- Custom ID json key/value.<br/>- 200A fuse option.<br/>- Fix transformer ratio not applied when mqtt json format is enabled.<br/>- Passwords handling changed to 'set and forget'.<br/>- CSRF token in critical internal REST APIs.</br>- Possibility to flash other firmwares than P1IB official firmwares OTA removed.<br/>- Bump platform<br/>- Wi-Fi password length limited to 64 chars.<br/>- Add authentication on factory reset API.",
       "blob": "blobs/54aa555.bin"
     },
     {
