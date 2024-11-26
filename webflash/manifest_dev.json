@@ -1,25 +1,25 @@
 {
   "name": "P1IB Development",
-  "version": "54aa555",
+  "version": "2564e43",
   "new_install_prompt_erase": false,
   "builds": [
     {
       "chipFamily": "ESP32",
       "parts": [
         {
-          "path": "dev_54aa555/bootloader_dio_40m.bin",
+          "path": "dev_2564e43/bootloader_dio_40m.bin",
           "offset": 4096
         },
         {
-          "path": "dev_54aa555/partitions.bin",
+          "path": "dev_2564e43/partitions.bin",
           "offset": 32768
         },
         {
-          "path": "dev_54aa555/boot_app0.bin",
+          "path": "dev_2564e43/boot_app0.bin",
           "offset": 57344
         },
         {
-          "path": "dev_54aa555/firmware.bin",
+          "path": "dev_2564e43/firmware.bin",
           "offset": 65536
         }
       ]

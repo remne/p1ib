@@ -10,11 +10,11 @@
       "blob": "blobs/54aa555.bin"
     },
     {
-      "build": "f934567",
-      "build_date": "20240625",
-      "status": "Stable",
-      "changelog": "- MQTT password length increased to 64 chars.<br/>- Items re-arranged in settings ui.<br/>- Improved Wi-Fi mesh support (bssid selectable).<br/>- Transformer ratio constant support.<br/>- Additional broken STAR meter support.</br><br/><br/><b>Note. This version breaks compatibility with the homey app.</b>",
-      "blob": "blobs/f934567.bin"
+      "build": "2564e43",
+      "build_date": "20241125",
+      "status": "Development",
+      "changelog": "- Fix bug with energy import in reduced mode (bug introduced in 54aa555).<br/>- Add support for JSON payload in reduced mode.<br/>- Add Telegram rate limit feature.<br/>- Remove word 'solar' from calculated power metrics.<br/>- Add calculcated power metrics option in reduced mode.<br/>",
+      "blob": "blobs/2564e43.bin"
     }
   ]
 }
