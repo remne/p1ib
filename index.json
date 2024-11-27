@@ -10,11 +10,11 @@
       "blob": "blobs/54aa555.bin"
     },
     {
-      "build": "ffbd193",
+      "build": "5e4898f",
       "build_date": "20241127",
       "status": "Development",
       "changelog": "- Fix bug with energy import in reduced mode (bug introduced in 54aa555).<br/>- Add support for JSON payload in reduced mode.<br/>- Add Telegram rate limit feature.<br/>- Remove word 'solar' from calculated power metrics.<br/>- Add calculcated power metrics option in reduced mode.<br/>- Add 35A fuse option.<br/>",
-      "blob": "blobs/ffbd193.bin"
+      "blob": "blobs/5e4898f.bin"
     }
   ]
 }
