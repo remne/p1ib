@@ -1,25 +1,25 @@
 {
   "name": "P1IB Development",
-  "version": "5e4898f",
+  "version": "ee0bcf9",
   "new_install_prompt_erase": false,
   "builds": [
     {
       "chipFamily": "ESP32",
       "parts": [
         {
-          "path": "dev_5e4898f/bootloader_dio_40m.bin",
+          "path": "dev_ee0bcf9/bootloader_dio_40m.bin",
           "offset": 4096
         },
         {
-          "path": "dev_5e4898f/partitions.bin",
+          "path": "dev_ee0bcf9/partitions.bin",
           "offset": 32768
         },
         {
-          "path": "dev_5e4898f/boot_app0.bin",
+          "path": "dev_ee0bcf9/boot_app0.bin",
           "offset": 57344
         },
         {
-          "path": "dev_5e4898f/firmware.bin",
+          "path": "dev_ee0bcf9/firmware.bin",
           "offset": 65536
         }
       ]
