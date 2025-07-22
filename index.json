@@ -15,6 +15,13 @@
       "status": "Stable",
       "changelog": "- Increase wifi scan result buffers<br/>- Optimize webgui loading time.<br/>- Bump platform.<br/>- Fix bug with energy import in reduced mode (bug introduced in 54aa555).<br/>- Add support for JSON payload in reduced mode.<br/>- Add Telegram rate limit feature.<br/>- Remove word 'solar' from calculated power metrics.<br/>- Add calculcated power metrics option in reduced mode.<br/>- Add 35A fuse option.<br/>",
       "blob": "blobs/f1e4a6e.bin"
+    },
+    {
+    "build": "0d46bd6",
+    "build_date": "20250722",
+    "status": "Development",
+    "changelog": "- Add new device class reactive_energy and reactive_power for reactive energy and power sensors.<br/>- Add support for username and password authentication for MQTT mTLS connections.<br/>",
+    "blob": "blobs/0d46bd6.bin"
     }
   ]
 }
