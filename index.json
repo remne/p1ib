@@ -1,6 +1,6 @@
 {
-  "recommended": "f1e4a6e",
-  "latest": "f1e4a6e",
+  "recommended": "757b45d",
+  "latest": "757b45d",
   "blobs": [
     {
       "build": "f1e4a6e",
@@ -12,7 +12,7 @@
     {
     "build": "757b45d",
     "build_date": "20250913",
-    "status": "Development",
+    "status": "Stable",
     "changelog": "- Add new HA device class reactive_energy and reactive_power for reactive energy and power sensors. <b>Note that HA release 2025.6 or newer is required!</b><br/>- Add support for username and password authentication for MQTT mTLS connections.<br/>- Minor optimizations in the firmware in different areas.",
     "blob": "blobs/757b45d.bin"
     }
