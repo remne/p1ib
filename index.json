@@ -17,11 +17,11 @@
       "blob": "blobs/757b45d.bin"
     },
     {
-      "build": "87d3f0d",
-      "build_date": "20260503",
+      "build": "1975306",
+      "build_date": "20260516",
       "status": "Development",
       "changelog": "- Internal improvements.<br/>- Bump platform.<br/>",
-      "blob": "blobs/87d3f0d.bin"
+      "blob": "blobs/1975306.bin"
     }
   ]
 }
